@@ -1,0 +1,1434 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="pt" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.000" end="00:00:24.180" style="s2">o mundo bem aonde hoje vamos falar um</p>
+<p begin="00:00:19.500" end="00:00:26.160" style="s2">pouco sobre a transformadas em verso os</p>
+<p begin="00:00:24.180" end="00:00:29.250" style="s2">objetivos da aula hoje apenas um</p>
+<p begin="00:00:26.160" end="00:00:31.650" style="s2">objetivo é calcular transformada ser</p>
+<p begin="00:00:29.250" end="00:00:33.780" style="s2">impressas em uma determinada sequência o</p>
+<p begin="00:00:31.650" end="00:00:37.309" style="s2">objetivo da aula de hoje</p>
+<p begin="00:00:33.780" end="00:00:41.480" style="s2">eu tô muito bem vamos discutir um pouco</p>
+<p begin="00:00:37.309" end="00:00:44.339" style="s2">melhor do que é a transformada Z inversa</p>
+<p begin="00:00:41.480" end="00:00:46.710" style="s2">com o próprio nome está sugerindo a</p>
+<p begin="00:00:44.339" end="00:00:51.320" style="s2">transformadas em é essa é a operação</p>
+<p begin="00:00:46.710" end="00:00:53.729" style="s2">inversa da transformada z ou seja</p>
+<p begin="00:00:51.320" end="00:00:57.600" style="s2">determinar a transformada você consiste</p>
+<p begin="00:00:53.729" end="00:01:00.269" style="s2">em determinar a sequência xdn a partir</p>
+<p begin="00:00:57.600" end="00:01:03.449" style="s2">do conhecimento da transformada Z e</p>
+<p begin="00:01:00.269" end="00:01:05.700" style="s2">quizer e da região de convergência dá</p>
+<p begin="00:01:03.449" end="00:01:09.539" style="s2">uma transformada inversa nós somos de</p>
+<p begin="00:01:05.700" end="00:01:11.539" style="s2">quis dizer na região de convergência EA</p>
+<p begin="00:01:09.539" end="00:01:14.350" style="s2">partir dessa informação nós vamos obter</p>
+<p begin="00:01:11.539" end="00:01:17.320" style="s2">X Diane</p>
+<p begin="00:01:14.350" end="00:01:19.200" style="s2">e existem diversos diversos métodos para</p>
+<p begin="00:01:17.320" end="00:01:21.850" style="s2">você calcular transformadas inversas</p>
+<p begin="00:01:19.200" end="00:01:25.500" style="s2">aqui nessa aulas uma apresentar quatro</p>
+<p begin="00:01:21.850" end="00:01:28.570" style="s2">metros o primeiro mestre é uma expressão</p>
+<p begin="00:01:25.500" end="00:01:31.540" style="s2">o segundo método é o metro da série de</p>
+<p begin="00:01:28.570" end="00:01:35.049" style="s2">potências o terceiro método é uma das</p>
+<p begin="00:01:31.540" end="00:01:38.049" style="s2">frações parciais e o último método é o</p>
+<p begin="00:01:35.049" end="00:01:40.210" style="s2">método da integral do Contorno que é a</p>
+<p begin="00:01:38.049" end="00:01:41.710" style="s2">definição matemática de transformadas em</p>
+<p begin="00:01:40.210" end="00:01:46.780" style="s2">verso</p>
+<p begin="00:01:41.710" end="00:01:52.420" style="s2">e vamos começar falando sobre o método</p>
+<p begin="00:01:46.780" end="00:01:55.030" style="s2">da suspensão da inspeção consiste a</p>
+<p begin="00:01:52.420" end="00:01:58.150" style="s2">gente vai conhecer algumas transformadas</p>
+<p begin="00:01:55.030" end="00:02:00.759" style="s2">tabelados e a partir dessas</p>
+<p begin="00:01:58.150" end="00:02:05.380" style="s2">transformadas tabelados nós podemos</p>
+<p begin="00:02:00.759" end="00:02:07.990" style="s2">determinar a transformada Z inversa por</p>
+<p begin="00:02:05.380" end="00:02:11.620" style="s2">exemplo alguns transformadas e as</p>
+<p begin="00:02:07.990" end="00:02:14.650" style="s2">inclusive obtive algumas delas aula</p>
+<p begin="00:02:11.620" end="00:02:20.110" style="s2">passada foram por exemplo transformada</p>
+<p begin="00:02:14.650" end="00:02:23.019" style="s2">na sequência à elevada a m de altura</p>
+<p begin="00:02:20.110" end="00:02:27.130" style="s2">formada Às vezes isso aqui é um dividir</p>
+<p begin="00:02:23.019" end="00:02:29.620" style="s2">ou menos a z elevado a menos 1 com a</p>
+<p begin="00:02:27.130" end="00:02:31.680" style="s2">região de convergência módulo bezerro</p>
+<p begin="00:02:29.620" end="00:02:35.879" style="s2">maior do que modo de ar</p>
+<p begin="00:02:31.680" end="00:02:38.609" style="s2">Em Outra Sequência que tem já calculou</p>
+<p begin="00:02:35.879" end="00:02:42.629" style="s2">transformadas vezes na aula passada foi</p>
+<p begin="00:02:38.609" end="00:02:46.349" style="s2">a sequência menos a elevado a n Wood - n</p>
+<p begin="00:02:42.629" end="00:02:51.019" style="s2">- 1 a transformar a cera se sequência é</p>
+<p begin="00:02:46.349" end="00:02:56.909" style="s2">1 sobre 1 menos a z elevado a menos um</p>
+<p begin="00:02:51.019" end="00:02:59.909" style="s2">só que a RDC agora a rock que módulo</p>
+<p begin="00:02:56.909" end="00:03:03.810" style="s2">dizer menor do que modo de ar Então a</p>
+<p begin="00:02:59.909" end="00:03:06.780" style="s2">partir do conhecimento das transformadas</p>
+<p begin="00:03:03.810" end="00:03:09.590" style="s2">de parte do crescimento uma tabela de</p>
+<p begin="00:03:06.780" end="00:03:12.480" style="s2">transformadas nós conseguimos determinar</p>
+<p begin="00:03:09.590" end="00:03:16.020" style="s2">a transformada inversa de algumas</p>
+<p begin="00:03:12.480" end="00:03:17.760" style="s2">transformadas que já estão fabricadas</p>
+<p begin="00:03:16.020" end="00:03:21.450" style="s2">e sempre lembrando que para você</p>
+<p begin="00:03:17.760" end="00:03:24.120" style="s2">determinar a transformada assim você</p>
+<p begin="00:03:21.450" end="00:03:26.910" style="s2">precisa tanto da expressão da</p>
+<p begin="00:03:24.120" end="00:03:29.580" style="s2">transformada Z como dar a volta por</p>
+<p begin="00:03:26.910" end="00:03:31.650" style="s2">exemplo a diferença dessa dessa</p>
+<p begin="00:03:29.580" end="00:03:34.980" style="s2">transformar as redes sim para essa</p>
+<p begin="00:03:31.650" end="00:03:38.010" style="s2">transformada ver de baixo eu estava a</p>
+<p begin="00:03:34.980" end="00:03:42.570" style="s2">fórmula transformada Será mesmo mas a</p>
+<p begin="00:03:38.010" end="00:03:48.020" style="s2">roxa é diferente é diferente sequência</p>
+<p begin="00:03:42.570" end="00:03:51.300" style="s2">lá o tempo nessa também é diferente</p>
+<p begin="00:03:48.020" end="00:03:54.600" style="s2">então como exemplo vamos supor que eu</p>
+<p begin="00:03:51.300" end="00:04:02.130" style="s2">tenho a seguinte transformada z qin z =</p>
+<p begin="00:03:54.600" end="00:04:05.540" style="s2">1 - meio zero elevado a menos 1 com o</p>
+<p begin="00:04:02.130" end="00:04:09.440" style="s2">rock modo de dizer maior do que meio</p>
+<p begin="00:04:05.540" end="00:04:12.819" style="s2">veja que essa transformada fazer ela é</p>
+<p begin="00:04:09.440" end="00:04:19.790" style="s2">exatamente igual a essa</p>
+<p begin="00:04:12.819" end="00:04:22.610" style="s2">e considerando a = meio então a</p>
+<p begin="00:04:19.790" end="00:04:27.319" style="s2">e com amei</p>
+<p begin="00:04:22.610" end="00:04:30.729" style="s2">e essa transformada Nesse exato quatro</p>
+<p begin="00:04:27.319" end="00:04:35.030" style="s2">formadas inverso calcular campo</p>
+<p begin="00:04:30.729" end="00:04:36.990" style="s2">comparação com esse pac que a gente até</p>
+<p begin="00:04:35.030" end="00:04:40.170" style="s2">transformadas ver</p>
+<p begin="00:04:36.990" end="00:04:43.710" style="s2">Hoje nós estamos aqui a transformadas em</p>
+<p begin="00:04:40.170" end="00:04:46.880" style="s2">verso vai ser quem será elevado a n que</p>
+<p begin="00:04:43.710" end="00:04:49.650" style="s2">ficou dinheiro mas a não é um sobre dois</p>
+<p begin="00:04:46.880" end="00:04:52.500" style="s2">então a transformadas em peças que vai</p>
+<p begin="00:04:49.650" end="00:04:55.320" style="s2">ser sobre 2 elevado a n que multiplica</p>
+<p begin="00:04:52.500" end="00:04:58.770" style="s2">ludiane Então esse é o método da</p>
+<p begin="00:04:55.320" end="00:05:00.930" style="s2">expressão você basicamente usa uma</p>
+<p begin="00:04:58.770" end="00:05:02.970" style="s2">tabela de transformadas que podem ser</p>
+<p begin="00:05:00.930" end="00:05:04.290" style="s2">encontrado em qualquer livro de</p>
+<p begin="00:05:02.970" end="00:05:06.780" style="s2">processamento digital de sinais</p>
+<p begin="00:05:04.290" end="00:05:10.110" style="s2">inclusive e você pode se hackear o</p>
+<p begin="00:05:06.780" end="00:05:13.170" style="s2">Operário outro método para você</p>
+<p begin="00:05:10.110" end="00:05:18.060" style="s2">determinar transformadas inversas é um</p>
+<p begin="00:05:13.170" end="00:05:21.200" style="s2">método da série de potências vamos</p>
+<p begin="00:05:18.060" end="00:05:25.530" style="s2">recordar a definição de transformada Z</p>
+<p begin="00:05:21.200" end="00:05:27.300" style="s2">da gente tem EA transformada z x z é</p>
+<p begin="00:05:25.530" end="00:05:29.970" style="s2">igual ao somatório variando de menos</p>
+<p begin="00:05:27.300" end="00:05:32.200" style="s2">infinito é finito nesse higiênico</p>
+<p begin="00:05:29.970" end="00:05:36.250" style="s2">múltiplo de fazer é levá-la menos bem</p>
+<p begin="00:05:32.200" end="00:05:37.770" style="s2">o variando desenvolvesse somatório como</p>
+<p begin="00:05:36.250" end="00:05:41.770" style="s2">é que a gente vai ter inflamatório aqui</p>
+<p begin="00:05:37.770" end="00:05:43.720" style="s2">Nelson infinita e vendo menos infinito</p>
+<p begin="00:05:41.770" end="00:05:46.780" style="s2">até o mais infinito Porque eu só pra</p>
+<p begin="00:05:43.720" end="00:05:50.950" style="s2">apresentam uma faixa dessa soma então</p>
+<p begin="00:05:46.780" end="00:06:00.220" style="s2">nós temos uma sozinho do mundo mas por</p>
+<p begin="00:05:50.950" end="00:06:05.620" style="s2">exemplo x menos x elevado a 2 + x + x +</p>
+<p begin="00:06:00.220" end="00:06:08.830" style="s2">x + x 2 é da varanda nos dois e assim</p>
+<p begin="00:06:05.620" end="00:06:15.330" style="s2">por diante de três vezes elevado a menos</p>
+<p begin="00:06:08.830" end="00:06:18.790" style="s2">3 o acesso dentro tá então mais infinito</p>
+<p begin="00:06:15.330" end="00:06:22.000" style="s2">comparação a gente pode determinar</p>
+<p begin="00:06:18.790" end="00:06:25.090" style="s2">justamente os valores da missa você 15</p>
+<p begin="00:06:22.000" end="00:06:29.380" style="s2">anos ou seja pela comparação mas podemos</p>
+<p begin="00:06:25.090" end="00:06:32.210" style="s2">determinar seus de nós dois vivo fizer x</p>
+<p begin="00:06:29.380" end="00:06:37.190" style="s2">1 e 2 e assim por diante é</p>
+<p begin="00:06:32.210" end="00:06:39.860" style="s2">e o que essa comparação vamos para</p>
+<p begin="00:06:37.190" end="00:06:42.310" style="s2">frente com exemplo vamos supor que eu</p>
+<p begin="00:06:39.860" end="00:06:46.400" style="s2">tenha essa transformadas ver aqui ó</p>
+<p begin="00:06:42.310" end="00:06:52.610" style="s2">dizer reservar ao quadrado menos 1 sobre</p>
+<p begin="00:06:46.400" end="00:06:54.020" style="s2">2 z - 1 + 1 sobre 2 elevado a menos 1 se</p>
+<p begin="00:06:52.610" end="00:06:57.110" style="s2">a gente tiver a definição da</p>
+<p begin="00:06:54.020" end="00:06:59.900" style="s2">transformada sair sozinho nós temos o</p>
+<p begin="00:06:57.110" end="00:07:02.330" style="s2">que deixa de ser transformada às vezes</p>
+<p begin="00:06:59.900" end="00:07:05.539" style="s2">nós temos somatório o fim do mundo</p>
+<p begin="00:07:02.330" end="00:07:12.620" style="s2">infinito mas fiz um dos dois elevado a 2</p>
+<p begin="00:07:05.539" end="00:07:15.229" style="s2">+ x - Google mais fizer machismo x 20</p>
+<p begin="00:07:12.620" end="00:07:17.990" style="s2">minutos o que a gente vai fazer é</p>
+<p begin="00:07:15.229" end="00:07:20.050" style="s2">comparar essa equação</p>
+<p begin="00:07:17.990" end="00:07:20.050" style="s2">E aí</p>
+<p begin="00:07:20.470" end="00:07:26.950" style="s2">e comparando essas duas equações nós</p>
+<p begin="00:07:23.620" end="00:07:30.850" style="s2">temos o que esses de menos dois vai ser</p>
+<p begin="00:07:26.950" end="00:07:32.680" style="s2">o tempo X elevado a 2 o pênis que está</p>
+<p begin="00:07:30.850" end="00:07:40.570" style="s2">multiplicando Os elevadores nessa</p>
+<p begin="00:07:32.680" end="00:07:43.600" style="s2">equação aqui é um box de - 2 = x - 1 vai</p>
+<p begin="00:07:40.570" end="00:07:47.770" style="s2">ser o tempo que fazer Qual o tempo que</p>
+<p begin="00:07:43.600" end="00:07:53.500" style="s2">multiplica fazer aqui é menos 1 sobre 2</p>
+<p begin="00:07:47.770" end="00:07:55.960" style="s2">então x de novo é menos sobre nós fizer</p>
+<p begin="00:07:53.500" end="00:07:58.240" style="s2">vai ser o termo independente o seu tempo</p>
+<p begin="00:07:55.960" end="00:08:00.970" style="s2">não está muito por favor não é uma</p>
+<p begin="00:07:58.240" end="00:08:02.680" style="s2">potência dizer nesse caso o tempo está</p>
+<p begin="00:08:00.970" end="00:08:07.630" style="s2">multiplicando uma potência de Zé menos</p>
+<p begin="00:08:02.680" end="00:08:12.570" style="s2">um então x0 = -1 fiz um vai ser o tempo</p>
+<p begin="00:08:07.630" end="00:08:16.510" style="s2">repita o temos elevado a menos um copo</p>
+<p begin="00:08:12.570" end="00:08:19.600" style="s2">Ou prejudicar X elevado a menos 1 essa</p>
+<p begin="00:08:16.510" end="00:08:20.540" style="s2">equação é um sobre dois então X1 = 1</p>
+<p begin="00:08:19.600" end="00:08:24.500" style="s2">sobre 2</p>
+<p begin="00:08:20.540" end="00:08:26.600" style="s2">e quais são os outros valores de x os</p>
+<p begin="00:08:24.500" end="00:08:29.680" style="s2">outros valores de x eles todos são</p>
+<p begin="00:08:26.600" end="00:08:32.440" style="s2">iguais a zero o quê</p>
+<p begin="00:08:29.680" end="00:08:36.969" style="s2">e não aparece na série de potências aqui</p>
+<p begin="00:08:32.440" end="00:08:39.849" style="s2">dá para tomar açaí então no caso X2 = é</p>
+<p begin="00:08:36.969" end="00:08:42.279" style="s2">porque não tem nenhum termo que está</p>
+<p begin="00:08:39.849" end="00:08:44.610" style="s2">multiplicando elevado a menos 2 ó fiz</p>
+<p begin="00:08:42.279" end="00:08:46.990" style="s2">dois é o tempo que levará ao menos dois</p>
+<p begin="00:08:44.610" end="00:08:49.570" style="s2">como não tem nenhum termo aqui que tava</p>
+<p begin="00:08:46.990" end="00:08:54.580" style="s2">fazer levar mandou isso é porque X2 =</p>
+<p begin="00:08:49.570" end="00:08:57.670" style="s2">velha x 3 = 0 x 4 = 0 e assim por diante</p>
+<p begin="00:08:54.580" end="00:09:01.779" style="s2">pelo menos explicação da mesma forma XD</p>
+<p begin="00:08:57.670" end="00:09:04.480" style="s2">- 3 = 0 x de -4 elevado nervosa assim</p>
+<p begin="00:09:01.779" end="00:09:05.920" style="s2">por diante então juntos valores são</p>
+<p begin="00:09:04.480" end="00:09:08.649" style="s2">diferentes de zero para essa minha</p>
+<p begin="00:09:05.920" end="00:09:13.390" style="s2">sequências de ar e me são esses valores</p>
+<p begin="00:09:08.649" end="00:09:15.510" style="s2">aqui ó nos dois menos 10 filme então eu</p>
+<p begin="00:09:13.390" end="00:09:18.370" style="s2">posso descrever essa sequência</p>
+<p begin="00:09:15.510" end="00:09:21.730" style="s2">utilizando aquele teorema da</p>
+<p begin="00:09:18.370" end="00:09:24.430" style="s2">decomposição do impulso então higiene</p>
+<p begin="00:09:21.730" end="00:09:27.190" style="s2">vai ser o que vai ser um impulso</p>
+<p begin="00:09:24.430" end="00:09:29.660" style="s2">localizado em um igual a menos dois que</p>
+<p begin="00:09:27.190" end="00:09:32.600" style="s2">Delta de mais 2</p>
+<p begin="00:09:29.660" end="00:09:37.040" style="s2">o chinelo Os dois quer um vai ficar</p>
+<p begin="00:09:32.600" end="00:09:42.970" style="s2">Delta de animais dois mas o último se</p>
+<p begin="00:09:37.040" end="00:09:48.080" style="s2">localizado em = -1 P Delta de mais um x</p>
+<p begin="00:09:42.970" end="00:09:54.230" style="s2">x - 1 ter menos meio tá vai ficar menos</p>
+<p begin="00:09:48.080" end="00:09:57.860" style="s2">mês Delta DN mais um Delta localizado em</p>
+<p begin="00:09:54.230" end="00:10:05.240" style="s2">igual a zero 70cn o que se passa o valor</p>
+<p begin="00:09:57.860" end="00:10:09.160" style="s2">de x e n e n = 0 - 1 cm mas o seu</p>
+<p begin="00:10:05.240" end="00:10:12.550" style="s2">localizado em é igual Rebelde - 1</p>
+<p begin="00:10:09.160" end="00:10:16.569" style="s2">me passa o valor dos 15 anos e igual a</p>
+<p begin="00:10:12.550" end="00:10:19.000" style="s2">um quase amigo Amei Delta ADM Então essa</p>
+<p begin="00:10:16.569" end="00:10:22.089" style="s2">daqui que higiene é a minha frequência</p>
+<p begin="00:10:19.000" end="00:10:24.610" style="s2">que gera transformada Z o médico de</p>
+<p begin="00:10:22.089" end="00:10:26.319" style="s2">série de potências ele é muito útil</p>
+<p begin="00:10:24.610" end="00:10:30.579" style="s2">Principalmente quando você tem</p>
+<p begin="00:10:26.319" end="00:10:32.889" style="s2">sequências de tamanho e o pé Você</p>
+<p begin="00:10:30.579" end="00:10:34.899" style="s2">consegue fazer essa comparação entre</p>
+<p begin="00:10:32.889" end="00:10:37.269" style="s2">esses dois colo e mãos O Paulo não dá</p>
+<p begin="00:10:34.899" end="00:10:38.860" style="s2">transformada Z e O Paulo não que é</p>
+<p begin="00:10:37.269" end="00:10:41.050" style="s2">gerado a partir da definição da</p>
+<p begin="00:10:38.860" end="00:10:44.829" style="s2">transformada sei que esse coluna aqui</p>
+<p begin="00:10:41.050" end="00:10:47.019" style="s2">debaixo mas não necessariamente o método</p>
+<p begin="00:10:44.829" end="00:10:50.439" style="s2">2 série de potências só pode ser</p>
+<p begin="00:10:47.019" end="00:10:52.389" style="s2">aplicado em sequência de tamanho único e</p>
+<p begin="00:10:50.439" end="00:10:54.250" style="s2">pode ser também aplicado no sequência de</p>
+<p begin="00:10:52.389" end="00:10:57.370" style="s2">tamanho infinito</p>
+<p begin="00:10:54.250" end="00:11:00.670" style="s2">e nesse caso quando você pensar com esse</p>
+<p begin="00:10:57.370" end="00:11:03.880" style="s2">tamanho um figo você pode utilizar a</p>
+<p begin="00:11:00.670" end="00:11:05.620" style="s2">divisão longa de pau enorme então por</p>
+<p begin="00:11:03.880" end="00:11:07.750" style="s2">exemplo vamos supor que eu queira</p>
+<p begin="00:11:05.620" end="00:11:11.770" style="s2">calcular e transformadas e aqui a gente</p>
+<p begin="00:11:07.750" end="00:11:16.620" style="s2">já calculou utilizam nessa expressão x</p>
+<p begin="00:11:11.770" end="00:11:19.540" style="s2">dizer igual humanos a se elevar a mesma</p>
+<p begin="00:11:16.620" end="00:11:22.870" style="s2">rock modo de dizer maior do que o modo</p>
+<p begin="00:11:19.540" end="00:11:25.990" style="s2">de ar o que a gente pode fazer aqui a</p>
+<p begin="00:11:22.870" end="00:11:28.060" style="s2">gente pode fazer aqui uma divisão do</p>
+<p begin="00:11:25.990" end="00:11:30.280" style="s2">polinômio de Cinza pelo qual o nó de</p>
+<p begin="00:11:28.060" end="00:11:32.279" style="s2">baixo vocês podem no numerador pelo</p>
+<p begin="00:11:30.280" end="00:11:36.259" style="s2">denominador</p>
+<p begin="00:11:32.279" end="00:11:39.810" style="s2">e pela definição da Rock aí vai a mágica</p>
+<p begin="00:11:36.259" end="00:11:44.459" style="s2">pela definição da Rock nós temos que</p>
+<p begin="00:11:39.810" end="00:11:48.149" style="s2">módulo 19 o modo de ar Então xdn é só na</p>
+<p begin="00:11:44.459" end="00:11:51.240" style="s2">sequência lateral-direito o quê Porque</p>
+<p begin="00:11:48.149" end="00:11:53.550" style="s2">quando a frequência lateral-direita rock</p>
+<p begin="00:11:51.240" end="00:11:55.439" style="s2">sempre é de um pouco para fora então</p>
+<p begin="00:11:53.550" end="00:11:58.790" style="s2">como a porta aquele um pouco para fora</p>
+<p begin="00:11:55.439" end="00:12:02.670" style="s2">que no caso é do ponto lá para fora</p>
+<p begin="00:11:58.790" end="00:12:04.800" style="s2">então essa transformadas ver aqui</p>
+<p begin="00:12:02.670" end="00:12:07.860" style="s2">corresponde a transformada Z uma</p>
+<p begin="00:12:04.800" end="00:12:09.540" style="s2">sequência lateral direita quando você tá</p>
+<p begin="00:12:07.860" end="00:12:13.319" style="s2">trabalhando consequências laterais</p>
+<p begin="00:12:09.540" end="00:12:17.009" style="s2">direita a divisão de polinômios sempre</p>
+<p begin="00:12:13.319" end="00:12:21.720" style="s2">deve ser feita em termos dizer a menos</p>
+<p begin="00:12:17.009" end="00:12:24.860" style="s2">um Então a gente vai dividir forma do</p>
+<p begin="00:12:21.720" end="00:12:31.220" style="s2">numerador pelo qual não do denominador</p>
+<p begin="00:12:24.860" end="00:12:34.280" style="s2">tá ficando essa que fazer</p>
+<p begin="00:12:31.220" end="00:12:36.260" style="s2">levar ao mesmo confessou Mas não seria</p>
+<p begin="00:12:34.280" end="00:12:39.200" style="s2">mais interessante desses Polo nomes</p>
+<p begin="00:12:36.260" end="00:12:43.180" style="s2">sendo intenção dizer ao invés de 15 anos</p>
+<p begin="00:12:39.200" end="00:12:46.070" style="s2">um Você pode até fazer isso mas como</p>
+<p begin="00:12:43.180" end="00:12:49.340" style="s2">essa transformado as corresponde a uma</p>
+<p begin="00:12:46.070" end="00:12:51.980" style="s2">sequência lateral direita é mais fácil</p>
+<p begin="00:12:49.340" end="00:12:56.300" style="s2">você fazer a divisão com o nome dizer a</p>
+<p begin="00:12:51.980" end="00:12:59.540" style="s2">menos um ok 15 vamos viver esses dois</p>
+<p begin="00:12:56.300" end="00:13:02.930" style="s2">polos nós temos o dividir um pouco menos</p>
+<p begin="00:12:59.540" end="00:13:06.290" style="s2">a Zé levar lá mesmo só que eu vou</p>
+<p begin="00:13:02.930" end="00:13:07.620" style="s2">dividir Então o Google vai ficar quanto</p>
+<p begin="00:13:06.290" end="00:13:10.680" style="s2">vai ficar assim</p>
+<p begin="00:13:07.620" end="00:13:13.080" style="s2">bom então aqui é o primeiro tempo</p>
+<p begin="00:13:10.680" end="00:13:19.440" style="s2">consciente agora eu vou multiplicar</p>
+<p begin="00:13:13.080" end="00:13:22.950" style="s2">inteiro dividem por esse tempo aqui tá</p>
+<p begin="00:13:19.440" end="00:13:25.529" style="s2">vai ficar Às vezes tem vai ficar um</p>
+<p begin="00:13:22.950" end="00:13:30.900" style="s2">menos a 0 e agora menos um e agora eu</p>
+<p begin="00:13:25.529" end="00:13:33.930" style="s2">vou subtrair subtraindo em 1 - asé levar</p>
+<p begin="00:13:30.900" end="00:13:37.260" style="s2">ao menos um vai ficar a ver ela vai lá</p>
+<p begin="00:13:33.930" end="00:13:41.010" style="s2">menos um e agora vou dividir azia levar</p>
+<p begin="00:13:37.260" end="00:13:43.980" style="s2">a menos um ou Municipal nome aqui a</p>
+<p begin="00:13:41.010" end="00:13:48.029" style="s2">divisão desses ter esse tema você quanto</p>
+<p begin="00:13:43.980" end="00:13:54.180" style="s2">eu tô devido à Zé menos um pelo um Vai</p>
+<p begin="00:13:48.029" end="00:13:59.360" style="s2">ficar quanto vai ficar a z a menos 1 a 0</p>
+<p begin="00:13:54.180" end="00:14:05.820" style="s2">- 1 / a Ásia e agora eu vou pegar um</p>
+<p begin="00:13:59.360" end="00:14:07.630" style="s2">papo todo o passa multiplicação Vai</p>
+<p begin="00:14:05.820" end="00:14:12.700" style="s2">ficar quanto menos</p>
+<p begin="00:14:07.630" end="00:14:17.020" style="s2">Oi nego ao quadrado Z a menos 2 e agora</p>
+<p begin="00:14:12.700" end="00:14:20.290" style="s2">o subtrair se você subir traz esses dois</p>
+<p begin="00:14:17.020" end="00:14:23.950" style="s2">termos eu voltei somente a elevado ao</p>
+<p begin="00:14:20.290" end="00:14:27.070" style="s2">quadrado fica ser elevado a menos 2 e</p>
+<p begin="00:14:23.950" end="00:14:30.400" style="s2">agora vou dividir esse tempo é levar o</p>
+<p begin="00:14:27.070" end="00:14:34.750" style="s2">quadrado que fazer e levar nós dois por</p>
+<p begin="00:14:30.400" end="00:14:37.420" style="s2">esse Paulo não é menos essa divisão da</p>
+<p begin="00:14:34.750" end="00:14:39.880" style="s2">fã da televisão da justamente ao</p>
+<p begin="00:14:37.420" end="00:14:43.260" style="s2">quadrado multiplica ser elevado a menos</p>
+<p begin="00:14:39.880" end="00:14:45.970" style="s2">2 e agora eu vou multiplicar ao quadrado</p>
+<p begin="00:14:43.260" end="00:14:49.570" style="s2">que fazer elevado a menos 2 por esse</p>
+<p begin="00:14:45.970" end="00:14:53.080" style="s2">tema aqui menos a ser a mesma realizando</p>
+<p begin="00:14:49.570" end="00:14:59.670" style="s2">a multiplicação vai tá vai dar com a ao</p>
+<p begin="00:14:53.080" end="00:15:02.710" style="s2">quadrado menos a Ao Cubo menos três</p>
+<p begin="00:14:59.670" end="00:15:07.640" style="s2">subtraindo esses dois termos mas não sei</p>
+<p begin="00:15:02.710" end="00:15:14.090" style="s2">quanto a elevar Ao Cubo Z1</p>
+<p begin="00:15:07.640" end="00:15:19.370" style="s2">eu vou dividir rolamento do cubo elevado</p>
+<p begin="00:15:14.090" end="00:15:22.340" style="s2">a menos 3 ou menos mas não é por causa</p>
+<p begin="00:15:19.370" end="00:15:25.130" style="s2">também elevar Ao Cubo Z ela vai lá menos</p>
+<p begin="00:15:22.340" end="00:15:30.560" style="s2">três e agora vou multiplicar né Ela</p>
+<p begin="00:15:25.130" end="00:15:34.720" style="s2">falou - 3 por 1 - a ser ela mandou isso</p>
+<p begin="00:15:30.560" end="00:15:39.620" style="s2">vai dar a elevado a 3 elevado a menos 3</p>
+<p begin="00:15:34.720" end="00:15:42.680" style="s2">- A elevado a 4 Z ela vai lá -4 tu me</p>
+<p begin="00:15:39.620" end="00:15:44.840" style="s2">traindo o a ela vai dar quatros elevado</p>
+<p begin="00:15:42.680" end="00:15:47.600" style="s2">a menos 4 você pode ir não tá com essa</p>
+<p begin="00:15:44.840" end="00:15:50.270" style="s2">divisão ela nunca vai ver não resto</p>
+<p begin="00:15:47.600" end="00:15:53.660" style="s2">igual a zero porque ela é uma divisão</p>
+<p begin="00:15:50.270" end="00:15:55.400" style="s2">infinita Então ela Segue até o infinito</p>
+<p begin="00:15:53.660" end="00:15:58.280" style="s2">essa divisão</p>
+<p begin="00:15:55.400" end="00:16:04.010" style="s2">e dessa forma como eu pego esse Paulinho</p>
+<p begin="00:15:58.280" end="00:16:06.300" style="s2">aqui parado ele foi condenado o</p>
+<p begin="00:16:04.010" end="00:16:11.310" style="s2">resultado esse Paulo nome aqui ó</p>
+<p begin="00:16:06.300" end="00:16:15.120" style="s2">é mas a Zé vai lá mesmo mas a z elevado</p>
+<p begin="00:16:11.310" end="00:16:18.390" style="s2">a menos 2 mas a elevada a freguesia não</p>
+<p begin="00:16:15.120" end="00:16:19.710" style="s2">menos três e assim por diante dessa</p>
+<p begin="00:16:18.390" end="00:16:23.070" style="s2">forma</p>
+<p begin="00:16:19.710" end="00:16:24.960" style="s2">Oi gente verificar essa transformadas</p>
+<p begin="00:16:23.070" end="00:16:26.640" style="s2">aqui ela está na forma de uma série de</p>
+<p begin="00:16:24.960" end="00:16:29.070" style="s2">potências isei</p>
+<p begin="00:16:26.640" end="00:16:32.730" style="s2">é só para descobrir os valores das</p>
+<p begin="00:16:29.070" end="00:16:35.820" style="s2">amostras de XML baixo fazer comparação o</p>
+<p begin="00:16:32.730" end="00:16:38.730" style="s2">carro x 0 vai ser o tempo livre em casa</p>
+<p begin="00:16:35.820" end="00:16:40.950" style="s2">se quiser você igual um atingir uma seu</p>
+<p begin="00:16:38.730" end="00:16:44.310" style="s2">termo como que fazer é para menos um</p>
+<p begin="00:16:40.950" end="00:16:46.440" style="s2">para vai ser igual a x 2 a seu tempo em</p>
+<p begin="00:16:44.310" end="00:16:50.670" style="s2">que preservar a menos dois o carro assim</p>
+<p begin="00:16:46.440" end="00:16:54.500" style="s2">ao quadrado x 3 vai ser o tempo tem que</p>
+<p begin="00:16:50.670" end="00:16:57.030" style="s2">fazer é ralar menos três cubo e assim</p>
+<p begin="00:16:54.500" end="00:16:59.310" style="s2">você está bem</p>
+<p begin="00:16:57.030" end="00:17:01.260" style="s2">e quando a gente tem ele igual a zero</p>
+<p begin="00:16:59.310" end="00:17:05.580" style="s2">vai dar um quando a gente é igual vai</p>
+<p begin="00:17:01.260" end="00:17:08.100" style="s2">dar um é igual a dois da ao quadrado = 3</p>
+<p begin="00:17:05.580" end="00:17:10.970" style="s2">da álcool cê gente fizesse igual a</p>
+<p begin="00:17:08.100" end="00:17:16.110" style="s2">quatro você esperaria que fosse com</p>
+<p begin="00:17:10.970" end="00:17:18.930" style="s2">elevado 4xd sim mas é para 5 e assim por</p>
+<p begin="00:17:16.110" end="00:17:24.680" style="s2">diante da própria que tá no padrão mesmo</p>
+<p begin="00:17:18.930" end="00:17:24.680" style="s2">que esses x igual a x = 0 e</p>
+<p begin="00:17:26.310" end="00:17:30.720" style="s2">bom então se a gente no Altar isso a</p>
+<p begin="00:17:28.710" end="00:17:34.200" style="s2">gente consegue você vá pelo</p>
+<p begin="00:17:30.720" end="00:17:38.460" style="s2">desenvolvimento aqui e esses dias vai</p>
+<p begin="00:17:34.200" end="00:17:41.490" style="s2">ser a elevada aérea x o dinheiro porque</p>
+<p begin="00:17:38.460" end="00:17:44.430" style="s2">está sendo X o biênio o que se a gente</p>
+<p begin="00:17:41.490" end="00:17:46.720" style="s2">observar aqui nós não temos potências</p>
+<p begin="00:17:44.430" end="00:17:49.570" style="s2">dizer positivas</p>
+<p begin="00:17:46.720" end="00:17:54.039" style="s2">os 10 competências dizer positivas são</p>
+<p begin="00:17:49.570" end="00:17:58.120" style="s2">justamente é corresponde as amostras</p>
+<p begin="00:17:54.039" end="00:18:01.390" style="s2">para n menor do que zero então X Diane</p>
+<p begin="00:17:58.120" end="00:18:04.760" style="s2">só tem valores para em maior igual a</p>
+<p begin="00:18:01.390" end="00:18:08.240" style="s2">zero sequência causal</p>
+<p begin="00:18:04.760" end="00:18:10.400" style="s2">é por isso que está sendo X o dia então</p>
+<p begin="00:18:08.240" end="00:18:14.000" style="s2">pela divisão logo qual o nome nós</p>
+<p begin="00:18:10.400" end="00:18:17.030" style="s2">conseguimos aqui esse ano a h&amp;m que</p>
+<p begin="00:18:14.000" end="00:18:20.420" style="s2">multiplica o de n vamos ver agora um</p>
+<p begin="00:18:17.030" end="00:18:23.510" style="s2">caso que a gente tem uma sequência em</p>
+<p begin="00:18:20.420" end="00:18:25.370" style="s2">que a rock é um pouco diferente nós</p>
+<p begin="00:18:23.510" end="00:18:29.210" style="s2">temos a Deus expressão para transformar</p>
+<p begin="00:18:25.370" end="00:18:32.060" style="s2">a fazer sobre ou menos Asus elevado a</p>
+<p begin="00:18:29.210" end="00:18:35.120" style="s2">menos 1 mais uma Rock agora módulo dizer</p>
+<p begin="00:18:32.060" end="00:18:36.890" style="s2">menor do que módulo de ar ou seja pelas</p>
+<p begin="00:18:35.120" end="00:18:39.830" style="s2">propriedades lá da rock que a gente</p>
+<p begin="00:18:36.890" end="00:18:43.690" style="s2">estudou na aula passada Isso corresponde</p>
+<p begin="00:18:39.830" end="00:18:46.029" style="s2">a uma sequência lateral esquerda</p>
+<p begin="00:18:43.690" end="00:18:48.009" style="s2">e nesse caso quando a gente vai conhecer</p>
+<p begin="00:18:46.029" end="00:18:51.190" style="s2">os laterais-esquerdos é altamente</p>
+<p begin="00:18:48.009" end="00:18:55.179" style="s2">recomendável que a divisão não seja em</p>
+<p begin="00:18:51.190" end="00:18:59.230" style="s2">termos de dizer a menos um mas sim que a</p>
+<p begin="00:18:55.179" end="00:19:01.990" style="s2">divisão seja em termos de Z então para</p>
+<p begin="00:18:59.230" end="00:19:06.519" style="s2">fazer com que essa transformada Z seja</p>
+<p begin="00:19:01.990" end="00:19:08.559" style="s2">função dizer ainda seja menos um baixa</p>
+<p begin="00:19:06.519" end="00:19:11.110" style="s2">multiplicar por Zé em cima e puser</p>
+<p begin="00:19:08.559" end="00:19:15.509" style="s2">embaixo Nossa multiplicar por em cima</p>
+<p begin="00:19:11.110" end="00:19:19.750" style="s2">embaixo eu vou ter que o apetite dizer é</p>
+<p begin="00:19:15.509" end="00:19:23.620" style="s2">z8z no Zap e agora vou acesso a divisão</p>
+<p begin="00:19:19.750" end="00:19:26.740" style="s2">vou te dizer você é no Zap só que presta</p>
+<p begin="00:19:23.620" end="00:19:30.190" style="s2">atenção magro dizer é menor do que</p>
+<p begin="00:19:26.740" end="00:19:34.400" style="s2">módulo virar então a divisão aqui vai</p>
+<p begin="00:19:30.190" end="00:19:38.960" style="s2">ser feito dizer por menos a não usei</p>
+<p begin="00:19:34.400" end="00:19:41.480" style="s2">é a divisão Apple mesmo usar o quê</p>
+<p begin="00:19:38.960" end="00:19:45.380" style="s2">Porque módulo de ar é maior do que</p>
+<p begin="00:19:41.480" end="00:19:50.540" style="s2">módulo dizer efetuando essa divisão eu</p>
+<p begin="00:19:45.380" end="00:19:54.710" style="s2">tenho que Zé / menos lá vai dar quanto 0</p>
+<p begin="00:19:50.540" end="00:19:59.360" style="s2">/ menos a dá justamente menos a elevado</p>
+<p begin="00:19:54.710" end="00:20:05.000" style="s2">a menos 1 vez não sei boca pecado menos</p>
+<p begin="00:19:59.360" end="00:20:09.980" style="s2">a elevar a mesma dizer o menos Ah mas vê</p>
+<p begin="00:20:05.000" end="00:20:12.290" style="s2">vai dar também vê menos a elevado a</p>
+<p begin="00:20:09.980" end="00:20:15.500" style="s2">menos 1 cm ao quadrado e agora a gente</p>
+<p begin="00:20:12.290" end="00:20:18.800" style="s2">vai fazer subtração a visão subtração</p>
+<p begin="00:20:15.500" end="00:20:22.220" style="s2">nós temos quem aqui achamos correto a</p>
+<p begin="00:20:18.800" end="00:20:26.930" style="s2">elevado a menos 10 leva lá 2 e agora eu</p>
+<p begin="00:20:22.220" end="00:20:34.410" style="s2">vou pegar a ^ mesmo você falar dois e</p>
+<p begin="00:20:26.930" end="00:20:39.450" style="s2">dividir por menos vai ser também - oh</p>
+<p begin="00:20:34.410" end="00:20:42.300" style="s2">ou menos dois z elevado a 2 e agora eu</p>
+<p begin="00:20:39.450" end="00:20:46.070" style="s2">vou pegar o menos lá levar lá mesmo ver</p>
+<p begin="00:20:42.300" end="00:20:49.650" style="s2">levar lá menos dois e multiplicar por</p>
+<p begin="00:20:46.070" end="00:20:53.160" style="s2">menos a mais Z</p>
+<p begin="00:20:49.650" end="00:20:57.180" style="s2">e realizando essa aplicação nós temos a</p>
+<p begin="00:20:53.160" end="00:21:02.280" style="s2">elevado a menos 1 z elevado a 2 menos a</p>
+<p begin="00:20:57.180" end="00:21:04.830" style="s2">elevado a menos 2 Z elevado a 3 e agora</p>
+<p begin="00:21:02.280" end="00:21:08.310" style="s2">vou fazer a subtração fazendo subtração</p>
+<p begin="00:21:04.830" end="00:21:13.200" style="s2">vai restar Justamente a elevado a menos</p>
+<p begin="00:21:08.310" end="00:21:15.870" style="s2">2 elevado a 3 elevado a menos x elevado</p>
+<p begin="00:21:13.200" end="00:21:18.270" style="s2">a 3 M respondo mesmo usar mas é</p>
+<p begin="00:21:15.870" end="00:21:20.700" style="s2">realizando essa divisão vai ser</p>
+<p begin="00:21:18.270" end="00:21:24.660" style="s2">justamente menos a elevado a menos 3</p>
+<p begin="00:21:20.700" end="00:21:27.300" style="s2">elevado a 3 e agora pegar o mesmo usar</p>
+<p begin="00:21:24.660" end="00:21:30.720" style="s2">elevado a menos 3 você é levar as 3 e</p>
+<p begin="00:21:27.300" end="00:21:33.810" style="s2">multiplicar pelo menos a mas ver isso</p>
+<p begin="00:21:30.720" end="00:21:38.220" style="s2">Vai resultar em menos a elevado a 2</p>
+<p begin="00:21:33.810" end="00:21:40.920" style="s2">vezes elevado a 3 - A elevado a menos 3</p>
+<p begin="00:21:38.220" end="00:21:43.770" style="s2">vezes é levado a quarta e agora a gente</p>
+<p begin="00:21:40.920" end="00:21:48.870" style="s2">vai subtrair realizando a subtração vai</p>
+<p begin="00:21:43.770" end="00:21:49.660" style="s2">ficar a elevar menos 3 elevado a 4 isso</p>
+<p begin="00:21:48.870" end="00:21:51.700" style="s2">a gente prosseguir</p>
+<p begin="00:21:49.660" end="00:21:53.159" style="s2">a previsão a gente não que você tem uma</p>
+<p begin="00:21:51.700" end="00:21:55.590" style="s2">divisão</p>
+<p begin="00:21:53.159" end="00:21:59.070" style="s2">e esses tem até o infinito nunca vai dar</p>
+<p begin="00:21:55.590" end="00:22:01.379" style="s2">um resto o Zé Então o que acontece como</p>
+<p begin="00:21:59.070" end="00:22:04.619" style="s2">eu pego esses dois polinômios</p>
+<p begin="00:22:01.379" end="00:22:07.440" style="s2">considerando essa rock e dividir o</p>
+<p begin="00:22:04.619" end="00:22:11.399" style="s2">resultado essa divisão é esse Paulo nome</p>
+<p begin="00:22:07.440" end="00:22:19.649" style="s2">aqui ó o consciente você já usar elevado</p>
+<p begin="00:22:11.399" end="00:22:23.159" style="s2">a menos 3 essa comparação se a gente</p>
+<p begin="00:22:19.649" end="00:22:26.190" style="s2">fizer comparação o x de menos um é o</p>
+<p begin="00:22:23.159" end="00:22:30.119" style="s2">termo nessa série de potências e</p>
+<p begin="00:22:26.190" end="00:22:34.440" style="s2">multiplica Z oxide menos um é menos a</p>
+<p begin="00:22:30.119" end="00:22:39.059" style="s2">levá-la - 16 - 2 ao tempo que multiplica</p>
+<p begin="00:22:34.440" end="00:22:42.629" style="s2">seu quadrado nos dois ou menos a elevada</p>
+<p begin="00:22:39.059" end="00:22:46.619" style="s2">menos 2X menos 3 ao térmico multiplica</p>
+<p begin="00:22:42.629" end="00:22:49.889" style="s2">os é o cubo oxigênio 3 - A elevado a</p>
+<p begin="00:22:46.619" end="00:22:52.139" style="s2">menos 3 e assim por diante Então por</p>
+<p begin="00:22:49.889" end="00:22:53.140" style="s2">comparação nós temos que a sequência de</p>
+<p begin="00:22:52.139" end="00:22:57.100" style="s2">higiene</p>
+<p begin="00:22:53.140" end="00:22:59.130" style="s2">é igual a menos a elevado a n último</p>
+<p begin="00:22:57.100" end="00:23:02.040" style="s2">menos ainda menos um</p>
+<p begin="00:22:59.130" end="00:23:04.500" style="s2">o rock que essa sequência aqui ó porque</p>
+<p begin="00:23:02.040" end="00:23:08.310" style="s2">essa série de potências ele não tem</p>
+<p begin="00:23:04.500" end="00:23:11.640" style="s2">termos dizer negativos você já não tem</p>
+<p begin="00:23:08.310" end="00:23:13.130" style="s2">10 elevado a menos 10 levar menos 20</p>
+<p begin="00:23:11.640" end="00:23:17.070" style="s2">levar na menos três e assim por diante</p>
+<p begin="00:23:13.130" end="00:23:22.800" style="s2">dessa forma essa sequência é uma</p>
+<p begin="00:23:17.070" end="00:23:24.810" style="s2">sequência quanto causal pois XD n = 0</p>
+<p begin="00:23:22.800" end="00:23:27.360" style="s2">para a em maior quiser sempre lembrando</p>
+<p begin="00:23:24.810" end="00:23:29.940" style="s2">que os temos que multiplica os elevado a</p>
+<p begin="00:23:27.360" end="00:23:33.810" style="s2">negativo são termos traindo maior que</p>
+<p begin="00:23:29.940" end="00:23:39.630" style="s2">zero pela divisão de polinômios você</p>
+<p begin="00:23:33.810" end="00:23:42.390" style="s2">consegue determinar uma série de</p>
+<p begin="00:23:39.630" end="00:23:44.730" style="s2">potências para frequências de duração</p>
+<p begin="00:23:42.390" end="00:23:45.990" style="s2">infinita não são os presidentes</p>
+<p begin="00:23:44.730" end="00:23:49.320" style="s2">anteriores</p>
+<p begin="00:23:45.990" end="00:23:52.950" style="s2">é só que método muito prático de cálculo</p>
+<p begin="00:23:49.320" end="00:23:55.350" style="s2">de transformada Z inversa a gente vai</p>
+<p begin="00:23:52.950" end="00:23:56.850" style="s2">ver um metro mais fraco mais à frente na</p>
+<p begin="00:23:55.350" end="00:23:59.400" style="s2">aula de hoje</p>
+<p begin="00:23:56.850" end="00:24:02.400" style="s2">e Todavia o método de série de potências</p>
+<p begin="00:23:59.400" end="00:24:05.149" style="s2">permite a gente calcular transformada as</p>
+<p begin="00:24:02.400" end="00:24:07.639" style="s2">leis que não são tabelados</p>
+<p begin="00:24:05.149" end="00:24:11.149" style="s2">é mas que podem ser determinadas a</p>
+<p begin="00:24:07.639" end="00:24:14.059" style="s2">partir da expansão série zero aumentando</p>
+<p begin="00:24:11.149" end="00:24:16.009" style="s2">expansões série de inteiro então por</p>
+<p begin="00:24:14.059" end="00:24:19.309" style="s2">exemplo se eu tivesse transformado a z</p>
+<p begin="00:24:16.009" end="00:24:22.969" style="s2">aqui ó xz a logaritmo esse aqui é um</p>
+<p begin="00:24:19.309" end="00:24:26.450" style="s2">logaritmo neperiano de um mais Asi</p>
+<p begin="00:24:22.969" end="00:24:28.879" style="s2">elevado a menos um modo de dizer maior</p>
+<p begin="00:24:26.450" end="00:24:32.779" style="s2">que o modo de como é que eu poderia</p>
+<p begin="00:24:28.879" end="00:24:34.369" style="s2">determinar a transformada inversa muito</p>
+<p begin="00:24:32.779" end="00:24:37.940" style="s2">bem eu consigo determinar a transformada</p>
+<p begin="00:24:34.369" end="00:24:41.570" style="s2">inversa analisando a expansão em série</p>
+<p begin="00:24:37.940" end="00:24:44.690" style="s2">de Taylor calção de quem Justamente a</p>
+<p begin="00:24:41.570" end="00:24:48.649" style="s2">resposta certa inteiro de logaritmo de</p>
+<p begin="00:24:44.690" end="00:24:51.109" style="s2">mais x a gente sabe lá de expansão em</p>
+<p begin="00:24:48.649" end="00:24:53.570" style="s2">séries que se fossem série inteiro</p>
+<p begin="00:24:51.109" end="00:24:57.589" style="s2">logaritmo de uma x pode ser dado como</p>
+<p begin="00:24:53.570" end="00:25:03.139" style="s2">sendo o somatório de m variando de 1 até</p>
+<p begin="00:24:57.589" end="00:25:05.159" style="s2">um elevado a n + 1 multiplica x100</p>
+<p begin="00:25:03.139" end="00:25:08.190" style="s2">levado a ele porém</p>
+<p begin="00:25:05.159" end="00:25:11.639" style="s2">O sargento comparar esse logaritmo aqui</p>
+<p begin="00:25:08.190" end="00:25:13.499" style="s2">e um machinho logaritmo da transformadas</p>
+<p begin="00:25:11.639" end="00:25:17.940" style="s2">em que a gente a calcular seu lugar e</p>
+<p begin="00:25:13.499" end="00:25:20.369" style="s2">tudo mais a z elevado a menos 1 a gente</p>
+<p begin="00:25:17.940" end="00:25:26.099" style="s2">vê que essas duas equações elas são</p>
+<p begin="00:25:20.369" end="00:25:28.710" style="s2">iguais desde que x seja igual a z e</p>
+<p begin="00:25:26.099" end="00:25:31.679" style="s2">levar ao mesmo então se a gente fizer</p>
+<p begin="00:25:28.710" end="00:25:34.739" style="s2">isso nessa expressão aqui nós podemos</p>
+<p begin="00:25:31.679" end="00:25:37.460" style="s2">qual de terminar essa transformada Z um</p>
+<p begin="00:25:34.739" end="00:25:41.309" style="s2">sendo uma expansão em série de Taylor</p>
+<p begin="00:25:37.460" end="00:25:44.489" style="s2">dessa forma xz que é o logaritmo de 1</p>
+<p begin="00:25:41.309" end="00:25:46.440" style="s2">mais Asus elevado a menos 1 eu posso</p>
+<p begin="00:25:44.489" end="00:25:49.590" style="s2">simplesmente pegar essa equações funções</p>
+<p begin="00:25:46.440" end="00:25:52.049" style="s2">série e onde tem x ou coloco justamente</p>
+<p begin="00:25:49.590" end="00:25:53.820" style="s2">aí não sei é levar lá no Google vai</p>
+<p begin="00:25:52.049" end="00:25:54.650" style="s2">ficar o somatório e ele variando de</p>
+<p begin="00:25:53.820" end="00:25:57.860" style="s2">menos um</p>
+<p begin="00:25:54.650" end="00:26:02.000" style="s2">o dinheiro variando de 1 até conseguir -</p>
+<p begin="00:25:57.860" end="00:26:05.050" style="s2">1n Nilson quem é x o coloco azeite e</p>
+<p begin="00:26:02.000" end="00:26:10.040" style="s2">levar ao menos um tudo isso é levado em</p>
+<p begin="00:26:05.050" end="00:26:13.820" style="s2">porém desenvolvendo essa exponenciação</p>
+<p begin="00:26:10.040" end="00:26:16.580" style="s2">vou ficar aqui se essa expansão vai ser</p>
+<p begin="00:26:13.820" end="00:26:20.420" style="s2">igual ao somatório de n variando de uma</p>
+<p begin="00:26:16.580" end="00:26:24.410" style="s2">técnica e menos 1 elevado a n + 1 a</p>
+<p begin="00:26:20.420" end="00:26:27.740" style="s2">elevada aê min / n que multiplica ser</p>
+<p begin="00:26:24.410" end="00:26:31.070" style="s2">elevado a - é muito bem porque isso até</p>
+<p begin="00:26:27.740" end="00:26:32.390" style="s2">o momento o que se você observar vem a</p>
+<p begin="00:26:31.070" end="00:26:35.540" style="s2">gente tem que da definição da</p>
+<p begin="00:26:32.390" end="00:26:40.460" style="s2">transformada Z quis dizer é igual a</p>
+<p begin="00:26:35.540" end="00:26:42.860" style="s2">somatória de ele é finito XD NZ elevado</p>
+<p begin="00:26:40.460" end="00:26:45.470" style="s2">a menos isso a gente comprar essa</p>
+<p begin="00:26:42.860" end="00:26:46.940" style="s2">equação da expansão em série de Taylor e</p>
+<p begin="00:26:45.470" end="00:26:49.580" style="s2">essa equação da definição da</p>
+<p begin="00:26:46.940" end="00:26:51.950" style="s2">transformada Z A gente vai ver que essas</p>
+<p begin="00:26:49.580" end="00:26:53.810" style="s2">duas equações são parecidas é um</p>
+<p begin="00:26:51.950" end="00:26:56.630" style="s2">somatório hein</p>
+<p begin="00:26:53.810" end="00:26:59.420" style="s2">e de alguma coisa que multiplica você</p>
+<p begin="00:26:56.630" end="00:27:01.850" style="s2">leva lá mesmo tem essa coisa que</p>
+<p begin="00:26:59.420" end="00:27:04.880" style="s2">multiplica Z elevado a menos cene na</p>
+<p begin="00:27:01.850" end="00:27:08.060" style="s2">definição da transformada Z é justamente</p>
+<p begin="00:27:04.880" end="00:27:11.030" style="s2">xdn então aqui nesse possa ser dinheiro</p>
+<p begin="00:27:08.060" end="00:27:14.520" style="s2">o que está multiplicando Z levar mesmo é</p>
+<p begin="00:27:11.030" end="00:27:17.250" style="s2">o meu x Biano</p>
+<p begin="00:27:14.520" end="00:27:20.550" style="s2">é só que note bem que os índices desse</p>
+<p begin="00:27:17.250" end="00:27:23.340" style="s2">somatório aqui só me frente nós possuem</p>
+<p begin="00:27:20.550" end="00:27:26.520" style="s2">série de terceiro ele começa em n igual</p>
+<p begin="00:27:23.340" end="00:27:29.190" style="s2">ao e vai até o infinito na definição</p>
+<p begin="00:27:26.520" end="00:27:34.230" style="s2">transformada Z ele começa de menos</p>
+<p begin="00:27:29.190" end="00:27:37.040" style="s2">infinito e várias infinito isso pode ser</p>
+<p begin="00:27:34.230" end="00:27:41.610" style="s2">entendido como sendo um sinal XD n</p>
+<p begin="00:27:37.040" end="00:27:44.100" style="s2">definido dessa forma XD n é igual a esse</p>
+<p begin="00:27:41.610" end="00:27:47.460" style="s2">tema que modifica ser elevado a menos</p>
+<p begin="00:27:44.100" end="00:27:48.650" style="s2">ele somente quando ele for maior ou</p>
+<p begin="00:27:47.460" end="00:27:52.460" style="s2">igual</p>
+<p begin="00:27:48.650" end="00:27:55.520" style="s2">o Israel tá comprado seja como é não for</p>
+<p begin="00:27:52.460" end="00:27:58.070" style="s2">menor do que um torcedor substituir isso</p>
+<p begin="00:27:55.520" end="00:28:01.280" style="s2">aqui na definição da transformada Z você</p>
+<p begin="00:27:58.070" end="00:28:03.890" style="s2">vai ver que o índice de somatório menos</p>
+<p begin="00:28:01.280" end="00:28:07.670" style="s2">infinito até o Zero eles são usados</p>
+<p begin="00:28:03.890" end="00:28:09.900" style="s2">sempre aí você vai ter Justamente esse</p>
+<p begin="00:28:07.670" end="00:28:13.590" style="s2">somatório aqui então</p>
+<p begin="00:28:09.900" end="00:28:17.430" style="s2">e transformadas em inversa ou seja xdm</p>
+<p begin="00:28:13.590" end="00:28:20.910" style="s2">ela vai ser igual a esse sinal somente</p>
+<p begin="00:28:17.430" end="00:28:24.270" style="s2">nos intervalos dados pelo um atómicos</p>
+<p begin="00:28:20.910" end="00:28:27.390" style="s2">seja DN variando de 1 até Infinito ou</p>
+<p begin="00:28:24.270" end="00:28:29.610" style="s2">seja ele maior dorme as sequências de</p>
+<p begin="00:28:27.390" end="00:28:32.400" style="s2">ervas é igual ao que multiplica ser</p>
+<p begin="00:28:29.610" end="00:28:37.140" style="s2">levada pelo vento que justamente menos 1</p>
+<p begin="00:28:32.400" end="00:28:40.200" style="s2">elevado a n + 1 a elevada / n para n</p>
+<p begin="00:28:37.140" end="00:28:42.930" style="s2">maior ou igual a 10 carro contrário ou</p>
+<p begin="00:28:40.200" end="00:28:46.800" style="s2">seja praia no menu o que estão usando</p>
+<p begin="00:28:42.930" end="00:28:49.650" style="s2">esses três artifícios aqui ou você faz a</p>
+<p begin="00:28:46.800" end="00:28:52.350" style="s2">compactação de Paulo não nos z ou você</p>
+<p begin="00:28:49.650" end="00:28:54.570" style="s2">fazer na divisão longo por nome ou você</p>
+<p begin="00:28:52.350" end="00:28:57.450" style="s2">fazendo expansão em séries geralmente</p>
+<p begin="00:28:54.570" end="00:29:00.260" style="s2">série de pelo você consegue calcular uma</p>
+<p begin="00:28:57.450" end="00:29:05.370" style="s2">multa grande Gama de transformada sair</p>
+<p begin="00:29:00.260" end="00:29:07.470" style="s2">inverso todavia alguns algumas</p>
+<p begin="00:29:05.370" end="00:29:09.590" style="s2">transformado às vezes elas não podem ser</p>
+<p begin="00:29:07.470" end="00:29:13.130" style="s2">determinados interesses S A</p>
+<p begin="00:29:09.590" end="00:29:15.890" style="s2">e como direto e nem usando sai de</p>
+<p begin="00:29:13.130" end="00:29:18.799" style="s2">potência existe um método que a gente</p>
+<p begin="00:29:15.890" end="00:29:27.830" style="s2">consegue determinar a transformada às</p>
+<p begin="00:29:18.799" end="00:29:32.330" style="s2">vezes é essa cama Thomé das funções esse</p>
+<p begin="00:29:27.830" end="00:29:34.640" style="s2">método o geralmente aplicado como você</p>
+<p begin="00:29:32.330" end="00:29:36.440" style="s2">tentar formar as leis Racionais ou seja</p>
+<p begin="00:29:34.640" end="00:29:39.890" style="s2">você tem uma razão do Qual nome Vamos</p>
+<p begin="00:29:36.440" end="00:29:41.390" style="s2">ver nós vamos ver vamos ver essa</p>
+<p begin="00:29:39.890" end="00:29:44.720" style="s2">transformada Às vezes pode ser escrito</p>
+<p begin="00:29:41.390" end="00:29:48.559" style="s2">como razão e Deus fala o nome vendido</p>
+<p begin="00:29:44.720" end="00:29:50.330" style="s2">a nossa só a grande maioria das</p>
+<p begin="00:29:48.559" end="00:29:52.850" style="s2">transformadas isso que a gente trabalha</p>
+<p begin="00:29:50.330" end="00:29:56.140" style="s2">aqui no curso são transformadas vezes</p>
+<p begin="00:29:52.850" end="00:29:58.490" style="s2">acionados então o método que a gente vai</p>
+<p begin="00:29:56.140" end="00:30:04.000" style="s2">prioritariamente utilizar vai ser um</p>
+<p begin="00:29:58.490" end="00:30:04.000" style="s2">metro e se essa é sociais o objetivo</p>
+<p begin="00:30:05.169" end="00:30:18.110" style="s2">transforma transformada Z nacional que</p>
+<p begin="00:30:09.710" end="00:30:19.580" style="s2">ela é complexa EA soma de transformada</p>
+<p begin="00:30:18.110" end="00:30:23.600" style="s2">às vezes mais simples</p>
+<p begin="00:30:19.580" end="00:30:30.470" style="s2">se você tem essa transformar aí tipo</p>
+<p begin="00:30:23.600" end="00:30:32.580" style="s2">umas 3 4 5 mais um oitavo 02 bloco maior</p>
+<p begin="00:30:30.470" end="00:30:34.380" style="s2">do que me</p>
+<p begin="00:30:32.580" end="00:30:37.440" style="s2">Oi como é que você calcular e a</p>
+<p begin="00:30:34.380" end="00:30:40.559" style="s2">transformadas em inglês então a gente</p>
+<p begin="00:30:37.440" end="00:30:43.559" style="s2">pode fazer inspeção eu não conheço nem</p>
+<p begin="00:30:40.559" end="00:30:47.429" style="s2">esse transformada não é saber nada</p>
+<p begin="00:30:43.559" end="00:30:48.760" style="s2">Olá eu sou neto a fazer divisão longo</p>
+<p begin="00:30:47.429" end="00:30:51.420" style="s2">bocado</p>
+<p begin="00:30:48.760" end="00:30:55.300" style="s2">em branco contra uma expressão para</p>
+<p begin="00:30:51.420" end="00:30:58.000" style="s2">higiene Ok embora ter para dividir esses</p>
+<p begin="00:30:55.300" end="00:31:00.160" style="s2">dois para o nome mas como você dividir</p>
+<p begin="00:30:58.000" end="00:31:01.660" style="s2">esses dois falam muito para ela como é</p>
+<p begin="00:31:00.160" end="00:31:05.020" style="s2">que você não vai conseguir comprar uma</p>
+<p begin="00:31:01.660" end="00:31:10.900" style="s2">expressão fechada Para fiz DN prova mais</p>
+<p begin="00:31:05.020" end="00:31:13.420" style="s2">você vai encontrar o valor de x 0 x 3 a</p>
+<p begin="00:31:10.900" end="00:31:15.550" style="s2">5 dias você não vai encontrar a</p>
+<p begin="00:31:13.420" end="00:31:17.700" style="s2">expressão analítica para seguirem lhe</p>
+<p begin="00:31:15.550" end="00:31:21.340" style="s2">garanto que você não vai conseguir fazer</p>
+<p begin="00:31:17.700" end="00:31:27.700" style="s2">mas como é que eu poderia obter a pessoa</p>
+<p begin="00:31:21.340" end="00:31:32.410" style="s2">analítica partir de n ela eu tentar</p>
+<p begin="00:31:27.700" end="00:31:40.630" style="s2">escrever essa forma de transformadas vez</p>
+<p begin="00:31:32.410" end="00:31:43.260" style="s2">mais simples a transformada inversa</p>
+<p begin="00:31:40.630" end="00:31:46.020" style="s2">dessas transformadas ele mais simples</p>
+<p begin="00:31:43.260" end="00:31:48.720" style="s2">e por exemplo eu não vou explicar como</p>
+<p begin="00:31:46.020" end="00:31:51.450" style="s2">mas um dessas faciais eu não vou</p>
+<p begin="00:31:48.720" end="00:31:53.580" style="s2">explicar como agora né vai dizer que</p>
+<p begin="00:31:51.450" end="00:31:56.190" style="s2">essa transformada Azeite Vai ser igual a</p>
+<p begin="00:31:53.580" end="00:32:09.750" style="s2">soma dessas duas transformaram as vezes</p>
+<p begin="00:31:56.190" end="00:32:11.400" style="s2">assim ou menos meio-dia só que veja que</p>
+<p begin="00:32:09.750" end="00:32:14.330" style="s2">essas transformadas vezes era só mais</p>
+<p begin="00:32:11.400" end="00:32:18.050" style="s2">simples para transformar a zero original</p>
+<p begin="00:32:14.330" end="00:32:22.190" style="s2">dessa primeira transformar as aqui</p>
+<p begin="00:32:18.050" end="00:32:26.559" style="s2">quem quiser saber um pouco a estrutura</p>
+<p begin="00:32:22.190" end="00:32:41.860" style="s2">para falar vezes a levar o dinheiro</p>
+<p begin="00:32:26.559" end="00:32:45.520" style="s2">a fazer isso é nessa primeira 64</p>
+<p begin="00:32:41.860" end="00:32:48.420" style="s2">a igreja que aqui em cima é um só que</p>
+<p begin="00:32:45.520" end="00:32:52.600" style="s2">nesse caso aqui essa primeira está tudo</p>
+<p begin="00:32:48.420" end="00:32:54.500" style="s2">e essa está sendo mesmo então o que</p>
+<p begin="00:32:52.600" end="00:32:57.050" style="s2">acontece</p>
+<p begin="00:32:54.500" end="00:33:02.770" style="s2">se transforma na Z ela é uma operação</p>
+<p begin="00:32:57.050" end="00:33:05.800" style="s2">linha você vai fazer mas já estou a fim</p>
+<p begin="00:33:02.770" end="00:33:08.060" style="s2">não posso simplesmente calcular</p>
+<p begin="00:33:05.800" end="00:33:09.680" style="s2">transformada Z inversa dessa primeira</p>
+<p begin="00:33:08.060" end="00:33:12.970" style="s2">parte</p>
+<p begin="00:33:09.680" end="00:33:18.900" style="s2">o mapa transformadas inversas</p>
+<p begin="00:33:12.970" end="00:33:27.400" style="s2">e essa primeira parte dessa família</p>
+<p begin="00:33:18.900" end="00:33:31.780" style="s2">seria meio dessas em tela você mil</p>
+<p begin="00:33:27.400" end="00:33:37.659" style="s2">elevada mas eu acho que essa transformar</p>
+<p begin="00:33:31.780" end="00:33:43.360" style="s2">tá sendo toda x 2 o mesmo a forma só que</p>
+<p begin="00:33:37.659" end="00:33:45.929" style="s2">não era igual dois passageiros por dois</p>
+<p begin="00:33:43.360" end="00:33:51.389" style="s2">a nossa resposta aqui ó</p>
+<p begin="00:33:45.929" end="00:33:53.399" style="s2">e transformadas em operação e essa nesse</p>
+<p begin="00:33:51.389" end="00:34:02.730" style="s2">caso qual seria transformadas em verso</p>
+<p begin="00:33:53.399" end="00:34:11.700" style="s2">ele é esse papo o dia só que ele está</p>
+<p begin="00:34:02.730" end="00:34:16.280" style="s2">saindo tocar pouco menos um ano</p>
+<p begin="00:34:11.700" end="00:34:17.700" style="s2">e a gente calcula transformadas na parte</p>
+<p begin="00:34:16.280" end="00:34:20.369" style="s2">1</p>
+<p begin="00:34:17.700" end="00:34:35.280" style="s2">em outras palavras é uma oração para</p>
+<p begin="00:34:20.369" end="00:34:40.740" style="s2">descobrir a minha c214 pessoal essa</p>
+<p begin="00:34:35.280" end="00:34:47.220" style="s2">primeira transformadas em 26 levar e</p>
+<p begin="00:34:40.740" end="00:34:49.589" style="s2">essa segunda vai ser sempre lembrar que</p>
+<p begin="00:34:47.220" end="00:34:52.530" style="s2">aquele pa transformados foi considerado</p>
+<p begin="00:34:49.589" end="00:34:56.040" style="s2">a Rock de uma sequência o mal da</p>
+<p begin="00:34:52.530" end="00:34:57.690" style="s2">sequência lateral-direito né Maior TV</p>
+<p begin="00:34:56.040" end="00:34:59.880" style="s2">quais são na sequência lateral direita</p>
+<p begin="00:34:57.690" end="00:35:04.920" style="s2">por isso que passamos ficar todo o</p>
+<p begin="00:34:59.880" end="00:35:08.460" style="s2">dinheiro aqui né da sociais ele diz a</p>
+<p begin="00:35:04.920" end="00:35:11.970" style="s2">sair dessa transformada cenas complexas</p>
+<p begin="00:35:08.460" end="00:35:14.070" style="s2">é mais complexa para a forma de</p>
+<p begin="00:35:11.970" end="00:35:16.440" style="s2">transformada às vezes mais simples em</p>
+<p begin="00:35:14.070" end="00:35:18.810" style="s2">que eu consigo aplicar o método da</p>
+<p begin="00:35:16.440" end="00:35:23.520" style="s2">expressão nessas transformadas em mas</p>
+<p begin="00:35:18.810" end="00:35:26.369" style="s2">sim como é que a gente faz aqui da</p>
+<p begin="00:35:23.520" end="00:35:28.240" style="s2">transformada complexa passou uma</p>
+<p begin="00:35:26.369" end="00:35:32.320" style="s2">transformada às vezes mais simples</p>
+<p begin="00:35:28.240" end="00:35:35.800" style="s2">eu estou sozinho de X dizer seja</p>
+<p begin="00:35:32.320" end="00:35:37.320" style="s2">racional ou seja dizer pode ser definido</p>
+<p begin="00:35:35.800" end="00:35:41.680" style="s2">como a razão de dois polinômios</p>
+<p begin="00:35:37.320" end="00:35:44.980" style="s2">vizer.biz porque geralmente os</p>
+<p begin="00:35:41.680" end="00:35:47.619" style="s2">polinômios eles são expressos em função</p>
+<p begin="00:35:44.980" end="00:35:50.590" style="s2">de z a menos um eles podem ser expressos</p>
+<p begin="00:35:47.619" end="00:35:52.900" style="s2">em dizer mas aqui no curso a gente</p>
+<p begin="00:35:50.590" end="00:35:55.270" style="s2">sempre a expressar os pronomes em função</p>
+<p begin="00:35:52.900" end="00:36:02.590" style="s2">desenha menos um então para o nome de</p>
+<p begin="00:35:55.270" end="00:36:06.670" style="s2">cima ele pode ser 50 mais vermos Hotel</p>
+<p begin="00:36:02.590" end="00:36:15.040" style="s2">te levar lá mesmo então aonde ele em</p>
+<p begin="00:36:06.670" end="00:36:18.490" style="s2">cima é um mais não lembro mais a dois é</p>
+<p begin="00:36:15.040" end="00:36:24.450" style="s2">a menos dois até a n de Natal Z elevado</p>
+<p begin="00:36:18.490" end="00:36:24.450" style="s2">a menos Natal então a ordem de baixo</p>
+<p begin="00:36:24.990" end="00:36:34.630" style="s2">aonde de forma o peixe ao forno</p>
+<p begin="00:36:28.250" end="00:36:41.020" style="s2">é é m de Maria órfão como e tchau com</p>
+<p begin="00:36:34.630" end="00:36:45.010" style="s2">denominador em de Natal somatório</p>
+<p begin="00:36:41.020" end="00:36:56.210" style="s2">somatório de carro Ariane zero até em de</p>
+<p begin="00:36:45.010" end="00:37:01.500" style="s2">carro o carro zero até Natal que a gente</p>
+<p begin="00:36:56.210" end="00:37:05.220" style="s2">vai trabalhar aqui</p>
+<p begin="00:37:01.500" end="00:37:09.270" style="s2">o tipo de compor esses dois polinômios e</p>
+<p begin="00:37:05.220" end="00:37:13.020" style="s2">e que de forma ressaltar as raízes desse</p>
+<p begin="00:37:09.270" end="00:37:15.540" style="s2">povo dessa forma aqui ó fiz dizer que a</p>
+<p begin="00:37:13.020" end="00:37:17.280" style="s2">razão desses três pode nome ele esses</p>
+<p begin="00:37:15.540" end="00:37:21.890" style="s2">dois com as mãos podem ser descritos de</p>
+<p begin="00:37:17.280" end="00:37:28.670" style="s2">forma a fator a as raízes então</p>
+<p begin="00:37:21.890" end="00:37:32.010" style="s2">polinômio P Z750 - eu usei elevada né</p>
+<p begin="00:37:28.670" end="00:37:37.920" style="s2">menos e 2 elevado a menos 2 e assim por</p>
+<p begin="00:37:32.010" end="00:37:43.140" style="s2">diante até 5 - cm de Maria Z dividido</p>
+<p begin="00:37:37.920" end="00:37:52.700" style="s2">tão faturamento do Polo o quê que é a -</p>
+<p begin="00:37:43.140" end="00:37:57.140" style="s2">D10 - D20 - DN de Natal 01</p>
+<p begin="00:37:52.700" end="00:38:00.349" style="s2">em termos de Paulo por ST Mark those</p>
+<p begin="00:37:57.140" end="00:38:02.980" style="s2">para podes entender como propósito</p>
+<p begin="00:38:00.349" end="00:38:04.760" style="s2">lembra que esse sim parece um grande</p>
+<p begin="00:38:02.980" end="00:38:09.020" style="s2">introdutório</p>
+<p begin="00:38:04.760" end="00:38:14.120" style="s2">as caveiras e uma até em iguaria o tempo</p>
+<p begin="00:38:09.020" end="00:38:16.190" style="s2">menos se caso ele levar lá mesmo o teu a</p>
+<p begin="00:38:14.120" end="00:38:19.370" style="s2">zero como que ficou auditório secar</p>
+<p begin="00:38:16.190" end="00:38:22.940" style="s2">variam de 1 cm Natal pelo menos de casos</p>
+<p begin="00:38:19.370" end="00:38:25.610" style="s2">é no nesse caso qual seria a vantagem</p>
+<p begin="00:38:22.940" end="00:38:29.180" style="s2">você colocar esses por nos aturar dessa</p>
+<p begin="00:38:25.610" end="00:38:31.800" style="s2">forma como a um produto de polinômio de</p>
+<p begin="00:38:29.180" end="00:38:35.820" style="s2">1ª ordem no caro</p>
+<p begin="00:38:31.800" end="00:38:38.070" style="s2">eu faço no numerador como denominador o</p>
+<p begin="00:38:35.820" end="00:38:41.550" style="s2">que quando você coloca o nome dessa</p>
+<p begin="00:38:38.070" end="00:38:45.410" style="s2">forma na forma fatorada você é falta</p>
+<p begin="00:38:41.550" end="00:38:50.460" style="s2">Quem são os sol é só um certo no caso</p>
+<p begin="00:38:45.410" end="00:38:55.920" style="s2">esses coeficientes e aqui secar C1 C2 C3</p>
+<p begin="00:38:50.460" end="00:38:59.310" style="s2">C4 até o cm de Maria eles são 10 dessa</p>
+<p begin="00:38:55.920" end="00:39:02.460" style="s2">transformada Z e Os coeficientes de cá</p>
+<p begin="00:38:59.310" end="00:39:06.660" style="s2">ou seja de um dois e três até cm de</p>
+<p begin="00:39:02.460" end="00:39:10.880" style="s2">Natal São polos dizer e a transformar</p>
+<p begin="00:39:06.660" end="00:39:14.310" style="s2">vocês patronos aplicar o método da</p>
+<p begin="00:39:10.880" end="00:39:16.950" style="s2">viagem nessa fartamente ele tem que</p>
+<p begin="00:39:14.310" end="00:39:19.470" style="s2">estar nessa forma fatorada aqui ele não</p>
+<p begin="00:39:16.950" end="00:39:21.300" style="s2">pode tá nessa primeira você tem que</p>
+<p begin="00:39:19.470" end="00:39:25.440" style="s2">converter essa primeira para segunda aí</p>
+<p begin="00:39:21.300" end="00:39:27.000" style="s2">você faz vezes não faz isso faturamento</p>
+<p begin="00:39:25.440" end="00:39:30.450" style="s2">com o nome normal</p>
+<p begin="00:39:27.000" end="00:39:33.360" style="s2">em qual a transformadas estamos nessa</p>
+<p begin="00:39:30.450" end="00:39:35.130" style="s2">forma fatorada nós temos algumas</p>
+<p begin="00:39:33.360" end="00:39:40.080" style="s2">situações possíveis para expansão em</p>
+<p begin="00:39:35.130" end="00:39:42.900" style="s2">frações parciais A primeira é caso MC</p>
+<p begin="00:39:40.080" end="00:39:46.800" style="s2">Maria esses menor do que em Natal ou</p>
+<p begin="00:39:42.900" end="00:39:49.770" style="s2">seja você tem mais colo do que 0 ou de</p>
+<p begin="00:39:46.800" end="00:39:52.620" style="s2">forma resumida a ordem do polinômio do</p>
+<p begin="00:39:49.770" end="00:39:55.590" style="s2">denominador é maior do que o óleo com o</p>
+<p begin="00:39:52.620" end="00:39:57.950" style="s2">nome do numerador Além disso todos os</p>
+<p begin="00:39:55.590" end="00:40:00.920" style="s2">polos são diferentes entre si</p>
+<p begin="00:39:57.950" end="00:40:03.680" style="s2">e se você tem três pau com três povos</p>
+<p begin="00:40:00.920" end="00:40:05.380" style="s2">diferentes com 4 polos 4 polos</p>
+<p begin="00:40:03.680" end="00:40:08.920" style="s2">diferentes essa Poliana</p>
+<p begin="00:40:05.380" end="00:40:11.980" style="s2">e o mais café frações parciais frações</p>
+<p begin="00:40:08.920" end="00:40:15.000" style="s2">parciais da minha transformada azeite Z</p>
+<p begin="00:40:11.980" end="00:40:18.580" style="s2">ela é dado plural de nos deu</p>
+<p begin="00:40:15.000" end="00:40:21.970" style="s2">elevada mesmo mas há dois dias de pouco</p>
+<p begin="00:40:18.580" end="00:40:23.890" style="s2">menos de dois Ela fala mesmo até o ar m</p>
+<p begin="00:40:21.970" end="00:40:27.000" style="s2">de Natal sempre lembrando que ele é</p>
+<p begin="00:40:23.890" end="00:40:31.510" style="s2">justamente a 11 do Povo no denominador</p>
+<p begin="00:40:27.000" end="00:40:43.210" style="s2">tipo 1 - tênis e levará menos tempo de</p>
+<p begin="00:40:31.510" end="00:40:49.110" style="s2">somatório essa situação até Natal essa</p>
+<p begin="00:40:43.210" end="00:40:53.020" style="s2">expansão espaciais caso essa situação ou</p>
+<p begin="00:40:49.110" end="00:40:55.369" style="s2">seja você tem mais Polo que quiser e</p>
+<p begin="00:40:53.020" end="00:41:00.470" style="s2">todos possam diferentes entre si</p>
+<p begin="00:40:55.369" end="00:41:03.499" style="s2">e os coeficientes e suficiente a alguma</p>
+<p begin="00:41:00.470" end="00:41:06.440" style="s2">dois eles vão ser determinados por</p>
+<p begin="00:41:03.499" end="00:41:09.640" style="s2">diversos né aqui o método que eu vou</p>
+<p begin="00:41:06.440" end="00:41:13.130" style="s2">apresentar é um método dos seres vivos</p>
+<p begin="00:41:09.640" end="00:41:18.349" style="s2">ou método I have inside as pessoas acham</p>
+<p begin="00:41:13.130" end="00:41:20.480" style="s2">que o carro esses coeficientes obtidos A</p>
+<p begin="00:41:18.349" end="00:41:24.680" style="s2">partir dessa conta aqui ó você pegar</p>
+<p begin="00:41:20.480" end="00:41:27.890" style="s2">para fazer multiplicar o menos de</p>
+<p begin="00:41:24.680" end="00:41:33.259" style="s2">caseira menos um substituir ser o</p>
+<p begin="00:41:27.890" end="00:41:36.890" style="s2">Brincar como calcular por exemplo você</p>
+<p begin="00:41:33.259" end="00:41:40.789" style="s2">faz pegar xe multiplicar por 1 - deu</p>
+<p begin="00:41:36.890" end="00:41:43.009" style="s2">nenhum é o Polo primeiro Pólo zero e</p>
+<p begin="00:41:40.789" end="00:41:46.130" style="s2">substituir nessa equação contém Z</p>
+<p begin="00:41:43.009" end="00:41:47.930" style="s2">podemos ou seja o primeiro Paulo aí você</p>
+<p begin="00:41:46.130" end="00:41:51.590" style="s2">vai fazendo isso pra todos os povos</p>
+<p begin="00:41:47.930" end="00:41:55.640" style="s2">e sempre lembrando que é o coeficiente</p>
+<p begin="00:41:51.590" end="00:41:57.700" style="s2">está associado ao Polo de um a dois é</p>
+<p begin="00:41:55.640" end="00:42:01.340" style="s2">que eu tô sempre está associado ao Polo</p>
+<p begin="00:41:57.700" end="00:42:05.000" style="s2">dedos e assim podia e você vai fazer</p>
+<p begin="00:42:01.340" end="00:42:05.960" style="s2">isso para todos os coeficientes Então</p>
+<p begin="00:42:05.000" end="00:42:13.460" style="s2">vamos supor que você tem essa</p>
+<p begin="00:42:05.960" end="00:42:16.310" style="s2">transformada Z aqui ó x - - meio e a</p>
+<p begin="00:42:13.460" end="00:42:18.140" style="s2">menos um o rock modo de dizer maior do</p>
+<p begin="00:42:16.310" end="00:42:21.049" style="s2">que meio</p>
+<p begin="00:42:18.140" end="00:42:23.510" style="s2">e essa transformadas está faturado não</p>
+<p begin="00:42:21.049" end="00:42:27.589" style="s2">necessariamente ela vai estar mas nesse</p>
+<p begin="00:42:23.510" end="00:42:30.799" style="s2">caso ela já está faturada abre os poros</p>
+<p begin="00:42:27.589" end="00:42:33.859" style="s2">elas estão ovos os polos é justamente o</p>
+<p begin="00:42:30.799" end="00:42:35.750" style="s2">que multiplica sem a menos um só que na</p>
+<p begin="00:42:33.859" end="00:42:38.089" style="s2">equação que a gente botou a forma</p>
+<p begin="00:42:35.750" end="00:42:40.539" style="s2">fatorada sempre lembrando que tem um</p>
+<p begin="00:42:38.089" end="00:42:40.539" style="s2">sinal negativo</p>
+<p begin="00:42:41.119" end="00:42:48.970" style="s2">o cão os Polo vai querer Quem o primeiro</p>
+<p begin="00:42:45.440" end="00:42:52.069" style="s2">pólen quatro do filme do Polo é o meio</p>
+<p begin="00:42:48.970" end="00:42:56.990" style="s2">porque não é menos um quarto e menos um</p>
+<p begin="00:42:52.069" end="00:42:58.950" style="s2">meio o que ver na expressão do</p>
+<p begin="00:42:56.990" end="00:43:01.890" style="s2">faturamento</p>
+<p begin="00:42:58.950" end="00:43:07.500" style="s2">é isso aqui é negativo sinal negativo é</p>
+<p begin="00:43:01.890" end="00:43:12.420" style="s2">x 0 mas não mas é o menos o colo</p>
+<p begin="00:43:07.500" end="00:43:13.630" style="s2">O João estava aqui é o lugar no quarto</p>
+<p begin="00:43:12.420" end="00:43:16.839" style="s2">filho</p>
+<p begin="00:43:13.630" end="00:43:22.950" style="s2">a aula do pulmão numerador Thiaguinho de</p>
+<p begin="00:43:16.839" end="00:43:28.000" style="s2">Maria José Aldo com o governador é dois</p>
+<p begin="00:43:22.950" end="00:43:31.579" style="s2">eu como e me é menor o caminho a</p>
+<p begin="00:43:28.000" end="00:43:33.709" style="s2">exposição parciais essa aqui</p>
+<p begin="00:43:31.579" end="00:43:36.769" style="s2">nós já sabemos com a expansão em frações</p>
+<p begin="00:43:33.709" end="00:43:40.430" style="s2">parciais ou é dado por aquela expressão</p>
+<p begin="00:43:36.769" end="00:43:45.529" style="s2">que basicamente substituir vai ser essa</p>
+<p begin="00:43:40.430" end="00:43:54.829" style="s2">daqui ó ou menos 14 ou faça a primeira</p>
+<p begin="00:43:45.529" end="00:43:58.579" style="s2">pa dois milzinho se eu tivesse separando</p>
+<p begin="00:43:54.829" end="00:44:02.029" style="s2">essa fração duas na verdade é isso com</p>
+<p begin="00:43:58.579" end="00:44:05.739" style="s2">medo aprofundar as relações sociais tem</p>
+<p begin="00:44:02.029" end="00:44:07.079" style="s2">como objetivo descobrir essa nesse</p>
+<p begin="00:44:05.739" end="00:44:10.529" style="s2">sociais</p>
+<p begin="00:44:07.079" end="00:44:15.059" style="s2">e agora falta determinar as constantes</p>
+<p begin="00:44:10.529" end="00:44:20.160" style="s2">ao dia dois como é que eu já dois pelo</p>
+<p begin="00:44:15.059" end="00:44:26.839" style="s2">médico vocês livre para calcular Thiago</p>
+<p begin="00:44:20.160" end="00:44:30.959" style="s2">está associado ao Polo o que eu faço rxz</p>
+<p begin="00:44:26.839" end="00:44:36.109" style="s2">trico justamente o que dividiam cão</p>
+<p begin="00:44:30.959" end="00:44:37.950" style="s2">menos um conto no resultado eu substituo</p>
+<p begin="00:44:36.109" end="00:44:41.099" style="s2">Z14</p>
+<p begin="00:44:37.950" end="00:44:44.520" style="s2">o placar como classificar quis dizer que</p>
+<p begin="00:44:41.099" end="00:44:55.060" style="s2">essa expressão aquele cima dele pouco</p>
+<p begin="00:44:44.520" end="00:44:57.610" style="s2">menos 10 - 15 x vai colocar isso com um</p>
+<p begin="00:44:55.060" end="00:45:00.220" style="s2">E aí nessa expressão restante onde tem</p>
+<p begin="00:44:57.610" end="00:45:02.920" style="s2">ser substituído como passar essa</p>
+<p begin="00:45:00.220" end="00:45:06.650" style="s2">substituição vai dar menos um e para</p>
+<p begin="00:45:02.920" end="00:45:10.820" style="s2">achar dois o que eu faço eu pego xz</p>
+<p begin="00:45:06.650" end="00:45:15.410" style="s2">e multiplico a 2 pelo que tá dividindo a</p>
+<p begin="00:45:10.820" end="00:45:22.010" style="s2">dois quer menos meio amargo e substituo</p>
+<p begin="00:45:15.410" end="00:45:26.510" style="s2">resultado tempo sobre nós lá como xz é</p>
+<p begin="00:45:22.010" end="00:45:30.830" style="s2">essa situação aqui pelo menos meses anos</p>
+<p begin="00:45:26.510" end="00:45:35.140" style="s2">então isso aqui isso aqui nessa fase o</p>
+<p begin="00:45:30.830" end="00:45:40.150" style="s2">tanto de dizer eu coloco sobre dores</p>
+<p begin="00:45:35.140" end="00:45:45.270" style="s2">substituindo vai ficar A2 = 2</p>
+<p begin="00:45:40.150" end="00:45:47.619" style="s2">eu vou substituir ao menos 1 a 2 por 2</p>
+<p begin="00:45:45.270" end="00:45:55.270" style="s2">então a expansão em frações parciais</p>
+<p begin="00:45:47.619" end="00:46:00.539" style="s2">essa daqui ó Z = -1 de gripo lembra 4 +</p>
+<p begin="00:45:55.270" end="00:46:02.670" style="s2">2 dividido por D em a menos um alto para</p>
+<p begin="00:46:00.539" end="00:46:05.040" style="s2">mim</p>
+<p begin="00:46:02.670" end="00:46:08.660" style="s2">o meu a Rock a gente sabe que isso aqui</p>
+<p begin="00:46:05.040" end="00:46:13.460" style="s2">é uma sequência lateral direita</p>
+<p begin="00:46:08.660" end="00:46:16.160" style="s2">e o que é de um bom para fora</p>
+<p begin="00:46:13.460" end="00:46:20.410" style="s2">e não o padre transformada que a gente</p>
+<p begin="00:46:16.160" end="00:46:27.130" style="s2">vai usar é o seguinte é aquele que disse</p>
+<p begin="00:46:20.410" end="00:46:30.880" style="s2">um pouco menos dizia mesmo com o óculos</p>
+<p begin="00:46:27.130" end="00:46:35.680" style="s2">lado dos irmãos a transformada inversa</p>
+<p begin="00:46:30.880" end="00:46:38.260" style="s2">disso é elevada aê o Biano</p>
+<p begin="00:46:35.680" end="00:46:41.140" style="s2">a bibliotheca Rock bate com a situação</p>
+<p begin="00:46:38.260" end="00:46:47.079" style="s2">né moto z maior que modo de ar</p>
+<p begin="00:46:41.140" end="00:46:53.920" style="s2">o velho que parece primeiro caso vale um</p>
+<p begin="00:46:47.079" end="00:46:55.599" style="s2">quarto para esse bocado de milho a gente</p>
+<p begin="00:46:53.920" end="00:46:59.109" style="s2">espera a dia que essa primeira</p>
+<p begin="00:46:55.599" end="00:47:01.240" style="s2">transformada fosse o que linda essa</p>
+<p begin="00:46:59.109" end="00:47:08.589" style="s2">tabela né passa com essas laterais gira</p>
+<p begin="00:47:01.240" end="00:47:10.569" style="s2">aí seria um com elevada o iene só que a</p>
+<p begin="00:47:08.589" end="00:47:15.470" style="s2">parte de cima aqui tá sendo multiplicada</p>
+<p begin="00:47:10.569" end="00:47:18.640" style="s2">por menos um né então é - 11</p>
+<p begin="00:47:15.470" end="00:47:22.730" style="s2">Ah mas essa senhora transformada inversa</p>
+<p begin="00:47:18.640" end="00:47:25.040" style="s2">pela inspeção seria meio é levado a Ele</p>
+<p begin="00:47:22.730" end="00:47:28.730" style="s2">o iene só que ela está sendo</p>
+<p begin="00:47:25.040" end="00:47:31.940" style="s2">multiplicada por dois Country publicar o</p>
+<p begin="00:47:28.730" end="00:47:33.339" style="s2">resultado a transformada e isso aqui é</p>
+<p begin="00:47:31.940" end="00:47:37.930" style="s2">justamente</p>
+<p begin="00:47:33.339" end="00:47:40.299" style="s2">Bom dia o carro pela inspeção e higiene</p>
+<p begin="00:47:37.930" end="00:47:43.089" style="s2">é a transformada inversa dessa primeira</p>
+<p begin="00:47:40.299" end="00:47:45.910" style="s2">fração mas a transformada em pressão da</p>
+<p begin="00:47:43.089" end="00:47:50.140" style="s2">segunda atração vejo que o fato de eu</p>
+<p begin="00:47:45.910" end="00:47:55.660" style="s2">ser utilizado espaciais foi justamente</p>
+<p begin="00:47:50.140" end="00:47:58.479" style="s2">para por dentro depois a segunda</p>
+<p begin="00:47:55.660" end="00:48:02.789" style="s2">situação é quando a gente tem em Maria</p>
+<p begin="00:47:58.479" end="00:48:06.249" style="s2">maior = n Ou seja a ordem do polinômio</p>
+<p begin="00:48:02.789" end="00:48:12.700" style="s2">numerador Ela é maior igual todo mundo</p>
+<p begin="00:48:06.249" end="00:48:15.130" style="s2">denominador nesse caso pela própria</p>
+<p begin="00:48:12.700" end="00:48:17.320" style="s2">e se todos os polos são diferentes entre</p>
+<p begin="00:48:15.130" end="00:48:20.290" style="s2">si então com sensações espaciais na</p>
+<p begin="00:48:17.320" end="00:48:29.050" style="s2">frente dessa forma aqui vezes é mais</p>
+<p begin="00:48:20.290" end="00:48:30.779" style="s2">mesmos e levar mais de dois até BM - r l</p>
+<p begin="00:48:29.050" end="00:48:34.739" style="s2">-1</p>
+<p begin="00:48:30.779" end="00:48:37.829" style="s2">eu nunca passei ela levava em menina da</p>
+<p begin="00:48:34.739" end="00:48:45.380" style="s2">primeira para a segunda parte da</p>
+<p begin="00:48:37.829" end="00:48:51.209" style="s2">expansão é igual à anterior passados</p>
+<p begin="00:48:45.380" end="00:48:57.569" style="s2">mais de dois anos a e Natal vive por um</p>
+<p begin="00:48:51.209" end="00:49:04.349" style="s2">SBT ao vivo agora mesmo essa primeira</p>
+<p begin="00:48:57.569" end="00:49:11.819" style="s2">parte da equação somatório de rm07 de</p>
+<p begin="00:49:04.349" end="00:49:13.679" style="s2">Maria - n de Natal BR mas essa segunda</p>
+<p begin="00:49:11.819" end="00:49:24.299" style="s2">parte também pode ser entendido como um</p>
+<p begin="00:49:13.679" end="00:49:30.220" style="s2">somatório de carro Natal Z os</p>
+<p begin="00:49:24.299" end="00:49:35.349" style="s2">coeficientes indeterminados e</p>
+<p begin="00:49:30.220" end="00:49:40.980" style="s2">e acaba você guache Z1 - de cá até mesmo</p>
+<p begin="00:49:35.349" end="00:49:46.570" style="s2">o mexicano z u de cá já os coeficientes</p>
+<p begin="00:49:40.980" end="00:49:50.080" style="s2">BR eu fizer viu meio doida até pe m de</p>
+<p begin="00:49:46.570" end="00:49:53.170" style="s2">Maria - de Natal podem ser determinados</p>
+<p begin="00:49:50.080" end="00:49:56.280" style="s2">pela divisão longo do do</p>
+<p begin="00:49:53.170" end="00:50:00.550" style="s2">numerador pelo caso no denominador</p>
+<p begin="00:49:56.280" end="00:50:06.430" style="s2">terminando quando o resto ou menor do</p>
+<p begin="00:50:00.550" end="00:50:08.170" style="s2">que o nome do denominador mais mas é</p>
+<p begin="00:50:06.430" end="00:50:14.589" style="s2">para ficar bem claro entendi</p>
+<p begin="00:50:08.170" end="00:50:17.500" style="s2">e vamos supor esse exemplo aqui ó de = 2</p>
+<p begin="00:50:14.589" end="00:50:21.579" style="s2">elevado a menos 1 baixo Z e levar mesmo</p>
+<p begin="00:50:17.500" end="00:50:24.890" style="s2">tudo um pouco menos três meses ver agora</p>
+<p begin="00:50:21.579" end="00:50:27.500" style="s2">vamos um baixo meio era para menos né</p>
+<p begin="00:50:24.890" end="00:50:29.900" style="s2">e a rock é modo de dizer maior do que um</p>
+<p begin="00:50:27.500" end="00:50:33.140" style="s2">só pela análise das propriedades na rock</p>
+<p begin="00:50:29.900" end="00:50:37.400" style="s2">a gente já sabe isso aqui corresponde a</p>
+<p begin="00:50:33.140" end="00:50:38.720" style="s2">uma frequência lateral-direito a</p>
+<p begin="00:50:37.400" end="00:50:42.349" style="s2">primeira coisa que a gente vai terminar</p>
+<p begin="00:50:38.720" end="00:50:45.450" style="s2">aqui são 10 dessas transformadas</p>
+<p begin="00:50:42.349" end="00:50:50.910" style="s2">10 já transformar o som as raízes o pão</p>
+<p begin="00:50:45.450" end="00:50:54.780" style="s2">nome do narrador raízes embaixo dois ela</p>
+<p begin="00:50:50.910" end="00:50:57.150" style="s2">mais ela falava nos dois só para</p>
+<p begin="00:50:54.780" end="00:50:59.660" style="s2">simplificar eu vou fazer uma</p>
+<p begin="00:50:57.150" end="00:51:02.400" style="s2">substituição de variável para que não</p>
+<p begin="00:50:59.660" end="00:51:05.160" style="s2">foi para simplificar minhas contas eu</p>
+<p begin="00:51:02.400" end="00:51:08.550" style="s2">vou chamar X elevado a menos 1 vai ficar</p>
+<p begin="00:51:05.160" end="00:51:11.190" style="s2">como a ficar mais 2 x + x ao quadrado</p>
+<p begin="00:51:08.550" end="00:51:15.810" style="s2">igual a zero é o cálculo Raiz Esse</p>
+<p begin="00:51:11.190" end="00:51:18.740" style="s2">pronome primeira raiz é menos um só que</p>
+<p begin="00:51:15.810" end="00:51:22.200" style="s2">a saída tem que botar em função de Z</p>
+<p begin="00:51:18.740" end="00:51:25.760" style="s2">então e função dizer isso aqui sobre</p>
+<p begin="00:51:22.200" end="00:51:28.790" style="s2">essa situação né x = x elevado a mesma</p>
+<p begin="00:51:25.760" end="00:51:33.770" style="s2">ou seja Z =</p>
+<p begin="00:51:28.790" end="00:51:38.270" style="s2">Oi Gisele falar mesmo então Z vai ser</p>
+<p begin="00:51:33.770" end="00:51:41.960" style="s2">igual aquele primeiro Zé já se mudaram é</p>
+<p begin="00:51:38.270" end="00:51:47.790" style="s2">repetido igual a mesma próximo do zero</p>
+<p begin="00:51:41.960" end="00:51:51.730" style="s2">também é esse Polo</p>
+<p begin="00:51:47.790" end="00:51:55.440" style="s2">o sol raios Economy 09 azul</p>
+<p begin="00:51:51.730" end="00:52:00.310" style="s2">E aí deixa Paulo aqui ou menos três</p>
+<p begin="00:51:55.440" end="00:52:02.710" style="s2">meses de mais meios de elevado a menos 2</p>
+<p begin="00:52:00.310" end="00:52:04.690" style="s2">o agora vou fazer a substituição de</p>
+<p begin="00:52:02.710" end="00:52:08.760" style="s2">variável da mesma forma só para</p>
+<p begin="00:52:04.690" end="00:52:14.020" style="s2">facilitar vou chamar X elevado a menos 1</p>
+<p begin="00:52:08.760" end="00:52:17.080" style="s2">tá vai ficar com menos três meses x mais</p>
+<p begin="00:52:14.020" end="00:52:20.470" style="s2">meio e já levaram ao quadrado = 0 e</p>
+<p begin="00:52:17.080" end="00:52:23.350" style="s2">agora vou calcular sair de primeira raiz</p>
+<p begin="00:52:20.470" end="00:52:27.850" style="s2">é x igual a um só que o tempo e</p>
+<p begin="00:52:23.350" end="00:52:30.550" style="s2">denominar os polos então dizer obtém-se</p>
+<p begin="00:52:27.850" end="00:52:32.849" style="s2">a equação igual eu vamos comprar aqui</p>
+<p begin="00:52:30.550" end="00:52:36.589" style="s2">primeiro Polo antes de igual</p>
+<p begin="00:52:32.849" end="00:52:38.849" style="s2">é a segunda raiz dessa equação x = 2</p>
+<p begin="00:52:36.589" end="00:52:42.809" style="s2">substituindo na equação de comprar que o</p>
+<p begin="00:52:38.849" end="00:52:48.170" style="s2">segundo Polo 11 = meio dessa forma nós</p>
+<p begin="00:52:42.809" end="00:52:48.170" style="s2">temos 20 se localizados em mesmo</p>
+<p begin="00:52:48.799" end="00:52:54.900" style="s2">localizado e outro localizado em meio da</p>
+<p begin="00:52:52.979" end="00:52:57.599" style="s2">que a gente até reforça a questão da</p>
+<p begin="00:52:54.900" end="00:53:01.289" style="s2">nossa roupa mesmo que a nossa rock é do</p>
+<p begin="00:52:57.599" end="00:53:03.150" style="s2">Povo mas Ester quer um lá fora ele passa</p>
+<p begin="00:53:01.289" end="00:53:06.240" style="s2">com essa lateral direita</p>
+<p begin="00:53:03.150" end="00:53:09.540" style="s2">e dessa forma o patrolamento da situação</p>
+<p begin="00:53:06.240" end="00:53:12.750" style="s2">para ficar dessa forma aqui ó Mas vem</p>
+<p begin="00:53:09.540" end="00:53:21.330" style="s2">elevado a menos 1 ao quadrado</p>
+<p begin="00:53:12.750" end="00:53:25.560" style="s2">é o menos ver um excelente aqui aqui na</p>
+<p begin="00:53:21.330" end="00:53:28.860" style="s2">parte de cima sempre vai ser menos 10 x</p>
+<p begin="00:53:25.560" end="00:53:32.040" style="s2">^ mesmo usar a menos um então vai ficar</p>
+<p begin="00:53:28.860" end="00:53:34.500" style="s2">mais elevada mesmo precisando aparece</p>
+<p begin="00:53:32.040" end="00:53:38.760" style="s2">duas vezes então vai ficar duas vezes</p>
+<p begin="00:53:34.500" end="00:53:42.150" style="s2">mais elevada mesmo beijo mais colocar</p>
+<p begin="00:53:38.760" end="00:53:47.540" style="s2">mais elevado ao quadrado aqui embaixo</p>
+<p begin="00:53:42.150" end="00:54:01.700" style="s2">sempre um menos o Polo menos um então</p>
+<p begin="00:53:47.540" end="00:54:01.700" style="s2">menos o TVI a mesma coisa o ou menos um</p>
+<p begin="00:54:01.730" end="00:54:09.500" style="s2">dinheiro agora meu número</p>
+<p begin="00:54:03.830" end="00:54:12.890" style="s2">bom Então essa é o faturamento eu</p>
+<p begin="00:54:09.500" end="00:54:16.130" style="s2">preciso que esteja fatorado para aplicar</p>
+<p begin="00:54:12.890" end="00:54:18.760" style="s2">o médico só falta sociais Então eu tenho</p>
+<p begin="00:54:16.130" end="00:54:23.710" style="s2">essa minha transformada Z</p>
+<p begin="00:54:18.760" end="00:54:26.050" style="s2">eu vejo causa do pai nome é igual alto</p>
+<p begin="00:54:23.710" end="00:54:28.320" style="s2">para o nome de numerador Então tem que</p>
+<p begin="00:54:26.050" end="00:54:31.710" style="s2">eu caio no segundo caso</p>
+<p begin="00:54:28.320" end="00:54:35.250" style="s2">E qual é o segundo caso ao voltar lá pra</p>
+<p begin="00:54:31.710" end="00:54:36.960" style="s2">definição essa segunda parte não muda</p>
+<p begin="00:54:35.250" end="00:54:40.110" style="s2">não esqueça só quero saber o primeiro</p>
+<p begin="00:54:36.960" end="00:54:46.350" style="s2">somatório vai ser o somatório de R = 0</p>
+<p begin="00:54:40.110" end="00:54:50.640" style="s2">até m - n ele de Maria no nosso caso m</p>
+<p begin="00:54:46.350" end="00:54:52.250" style="s2">de Maria = 2n = 2 então vai ficar um</p>
+<p begin="00:54:50.640" end="00:54:55.400" style="s2">ficar como</p>
+<p begin="00:54:52.250" end="00:54:59.660" style="s2">é só aquela parte dos Reis a calça</p>
+<p begin="00:54:55.400" end="00:55:02.660" style="s2">somatório CR variar de 0 até 0 BRZ</p>
+<p begin="00:54:59.660" end="00:55:05.780" style="s2">elevado a menos é ou seja esse somatório</p>
+<p begin="00:55:02.660" end="00:55:09.580" style="s2">aqui pela própria propriedade somatório</p>
+<p begin="00:55:05.780" end="00:55:15.040" style="s2">vai ser vezes é ele é levado a mesmo Zé</p>
+<p begin="00:55:09.580" end="00:55:18.940" style="s2">seja você igual a p zero e a segunda é</p>
+<p begin="00:55:15.040" end="00:55:23.710" style="s2">igual ao anterior ou seja vai ser</p>
+<p begin="00:55:18.940" end="00:55:23.710" style="s2">dividido por essa primeira parte aqui</p>
+<p begin="00:55:23.750" end="00:55:36.620" style="s2">ou menos meio Zena por isso que eu tenho</p>
+<p begin="00:55:33.380" end="00:55:38.810" style="s2">que apagar eu justamente colocar dessa</p>
+<p begin="00:55:36.620" end="00:55:41.960" style="s2">forma que eu saber que esse</p>
+<p begin="00:55:38.810" end="00:55:44.540" style="s2">principalmente somos poucos a gente tem</p>
+<p begin="00:55:41.960" end="00:55:46.190" style="s2">três constantes para terminar nesse de 0</p>
+<p begin="00:55:44.540" end="00:55:48.080" style="s2">a 1 e a2</p>
+<p begin="00:55:46.190" end="00:55:50.900" style="s2">e como é que eu consigo a terminar essas</p>
+<p begin="00:55:48.080" end="00:55:55.370" style="s2">constam a 1 e a2 eu consigo terminar</p>
+<p begin="00:55:50.900" end="00:55:57.260" style="s2">pelo método dos resíduos e 1001 consegui</p>
+<p begin="00:55:55.370" end="00:55:58.799" style="s2">terminar pela divisão um vou começar</p>
+<p begin="00:55:57.260" end="00:56:02.489" style="s2">determinado de Zé</p>
+<p begin="00:55:58.799" end="00:56:05.069" style="s2">Ah pois é eu consigo determinar pela</p>
+<p begin="00:56:02.489" end="00:56:09.539" style="s2">visão ovo o pão nome numerador pelo</p>
+<p begin="00:56:05.069" end="00:56:13.829" style="s2">denominador que eu voltei para forma</p>
+<p begin="00:56:09.539" end="00:56:17.329" style="s2">expandida né original polinômio essa</p>
+<p begin="00:56:13.829" end="00:56:19.109" style="s2">forma aqui ó esse aqui é o Paulo não</p>
+<p begin="00:56:17.329" end="00:56:21.809" style="s2">numerador</p>
+<p begin="00:56:19.109" end="00:56:23.460" style="s2">eu só falo mal do denominado eu vou</p>
+<p begin="00:56:21.809" end="00:56:25.050" style="s2">dividir esse Paulo na piscina que eu</p>
+<p begin="00:56:23.460" end="00:56:29.100" style="s2">quero mudar</p>
+<p begin="00:56:25.050" end="00:56:33.200" style="s2">eu só vou dividir + 2 elevado a menos 1</p>
+<p begin="00:56:29.100" end="00:56:37.760" style="s2">mais dizer levar mas nos dois burro mano</p>
+<p begin="00:56:33.200" end="00:56:41.160" style="s2">3100 - 1 mais meio vai falar mais hoje</p>
+<p begin="00:56:37.760" end="00:56:44.280" style="s2">Eu dividi esse pronome por esse da</p>
+<p begin="00:56:41.160" end="00:56:46.590" style="s2">quanto a gente vir e seca maior potência</p>
+<p begin="00:56:44.280" end="00:56:49.800" style="s2">que eu usei elevada nos dois pela maior</p>
+<p begin="00:56:46.590" end="00:56:52.230" style="s2">potência mas eleva lá menos dois aqui é</p>
+<p begin="00:56:49.800" end="00:56:56.820" style="s2">esse Zé levar na menos oito e tudo bem</p>
+<p begin="00:56:52.230" end="00:56:59.130" style="s2">elevado a menos 2 essa divisão da 2</p>
+<p begin="00:56:56.820" end="00:57:02.270" style="s2">a começar essa decisão da dois eu</p>
+<p begin="00:56:59.130" end="00:57:05.180" style="s2">multiplico 2</p>
+<p begin="00:57:02.270" end="00:57:09.800" style="s2">é por esse tema aqui resultado em quem</p>
+<p begin="00:57:05.180" end="00:57:13.300" style="s2">resultado em 2 - 36 - 1 mais EA menos</p>
+<p begin="00:57:09.800" end="00:57:17.920" style="s2">dois e subtrai da - 1</p>
+<p begin="00:57:13.300" end="00:57:20.680" style="s2">e mais cinco Z elevado a menos 1</p>
+<p begin="00:57:17.920" end="00:57:24.339" style="s2">eu vejo que a ordem do polinômio do</p>
+<p begin="00:57:20.680" end="00:57:28.540" style="s2">resto ela é menor do que a ordem para o</p>
+<p begin="00:57:24.339" end="00:57:30.480" style="s2">nome no denominador então eu encerro o</p>
+<p begin="00:57:28.540" end="00:57:33.540" style="s2">processo de divisão</p>
+<p begin="00:57:30.480" end="00:57:37.910" style="s2">Bom vamos lá cabelo b06 b07 tá no</p>
+<p begin="00:57:33.540" end="00:57:41.540" style="s2">cursinho Então esse aqui é o mesmo</p>
+<p begin="00:57:37.910" end="00:57:43.250" style="s2">bom então já determinei o valor de</p>
+<p begin="00:57:41.540" end="00:57:46.660" style="s2">Oi José</p>
+<p begin="00:57:43.250" end="00:57:46.660" style="s2">e disseram hoje</p>
+<p begin="00:57:46.850" end="00:57:55.190" style="s2">o e veja que aqui nós temos esse resto</p>
+<p begin="00:57:50.390" end="00:57:58.100" style="s2">né então Heart vai ser menos um mais 50</p>
+<p begin="00:57:55.190" end="00:58:00.950" style="s2">levar na menos um então eu posso quebrar</p>
+<p begin="00:57:58.100" end="00:58:04.130" style="s2">essa fração dessa forma e tal forma que</p>
+<p begin="00:58:00.950" end="00:58:10.430" style="s2">o X é assim oval dois que é o valor de</p>
+<p begin="00:58:04.130" end="00:58:17.030" style="s2">60 mas o menos um mais 50 / Justamente</p>
+<p begin="00:58:10.430" end="00:58:21.010" style="s2">esse o nome aqui ó que é mais com menos</p>
+<p begin="00:58:17.030" end="00:58:21.010" style="s2">elevado a menos um sofá por aí ou não</p>
+<p begin="00:58:21.500" end="00:58:27.410" style="s2">e essa essa parte aqui não vai fazer</p>
+<p begin="00:58:25.400" end="00:58:29.030" style="s2">muita diferença no final das contas O</p>
+<p begin="00:58:27.410" end="00:58:33.240" style="s2">importante que eu determinei vezes era</p>
+<p begin="00:58:29.030" end="00:58:37.619" style="s2">nessa situação igual doido</p>
+<p begin="00:58:33.240" end="00:58:42.270" style="s2">é só sair para passear o b-0 sabe que é</p>
+<p begin="00:58:37.619" end="00:58:45.450" style="s2">doido mas a um pouco menos meses mas há</p>
+<p begin="00:58:42.270" end="00:58:48.960" style="s2">dois ou menos é levar ao menos um agora</p>
+<p begin="00:58:45.450" end="00:58:52.880" style="s2">eu vou determinar a 1 e a2 seu médico os</p>
+<p begin="00:58:48.960" end="00:58:55.190" style="s2">resíduos então</p>
+<p begin="00:58:52.880" end="00:59:00.920" style="s2">Oi bom dia terminar o suficiente a 1 e</p>
+<p begin="00:58:55.190" end="00:59:03.799" style="s2">a2 servir pra terminar a um o fazer eu</p>
+<p begin="00:59:00.920" end="00:59:06.789" style="s2">vou pegar x dizer e multiplicar pelo que</p>
+<p begin="00:59:03.799" end="00:59:11.289" style="s2">vive ílhavo</p>
+<p begin="00:59:06.789" end="00:59:14.010" style="s2">eu substituí Z é um polo com essa</p>
+<p begin="00:59:11.289" end="00:59:19.920" style="s2">conexão que é meio</p>
+<p begin="00:59:14.010" end="00:59:23.400" style="s2">bom então vou pegar Z expressão aqui vou</p>
+<p begin="00:59:19.920" end="00:59:26.850" style="s2">picapu um menos meio Será mesmo isso</p>
+<p begin="00:59:23.400" end="00:59:28.020" style="s2">aqui copo aqui agora vou substituir ver</p>
+<p begin="00:59:26.850" end="00:59:33.350" style="s2">o meio</p>
+<p begin="00:59:28.020" end="00:59:35.910" style="s2">e substituindo eu vou ter Igual amor</p>
+<p begin="00:59:33.350" end="00:59:39.210" style="s2">posso encontrar pega quis dizer</p>
+<p begin="00:59:35.910" end="00:59:41.630" style="s2">multiplicado pelo que me viro há dois</p>
+<p begin="00:59:39.210" end="00:59:44.790" style="s2">que é um menos era ela mesmo</p>
+<p begin="00:59:41.630" end="00:59:47.269" style="s2">substituindo Z eu polo está associado a</p>
+<p begin="00:59:44.790" end="00:59:51.859" style="s2">dois que no caso é igual</p>
+<p begin="00:59:47.269" end="00:59:54.440" style="s2">bom então vai ficar aqui e vou</p>
+<p begin="00:59:51.859" end="00:59:57.619" style="s2">é isso qualquer com isso e agora vou</p>
+<p begin="00:59:54.440" end="01:00:01.840" style="s2">substituir e por fim esteja por um vai</p>
+<p begin="00:59:57.619" end="01:00:05.140" style="s2">ser igual a oito então já determinei</p>
+<p begin="01:00:01.840" end="01:00:10.330" style="s2">e o coeficiente ao o perfil exportador</p>
+<p begin="01:00:05.140" end="01:00:15.190" style="s2">quer essa expansão em frações parciais e</p>
+<p begin="01:00:10.330" end="01:00:18.890" style="s2">agora eu consigo terminar inversa pela</p>
+<p begin="01:00:15.190" end="01:00:22.400" style="s2">espécie só pela inspeção</p>
+<p begin="01:00:18.890" end="01:00:25.430" style="s2">e essa transformada inversa do dois as</p>
+<p begin="01:00:22.400" end="01:00:27.630" style="s2">igual a dois Delta DN porque a</p>
+<p begin="01:00:25.430" end="01:00:32.320" style="s2">transformada de um</p>
+<p begin="01:00:27.630" end="01:00:35.250" style="s2">a Rebelde é formado de 2</p>
+<p begin="01:00:32.320" end="01:00:37.770" style="s2">E aí</p>
+<p begin="01:00:35.250" end="01:00:41.690" style="s2">e essa transformado aqui parece com</p>
+<p begin="01:00:37.770" end="01:00:45.300" style="s2">aquela transformada a velada que é um -</p>
+<p begin="01:00:41.690" end="01:00:51.120" style="s2">A6 - um com a Rock módulos maior que</p>
+<p begin="01:00:45.300" end="01:00:54.750" style="s2">modo o diabo isso aqui transformado a</p>
+<p begin="01:00:51.120" end="01:00:59.480" style="s2">elevar o Diana tá nesse primeiro caso</p>
+<p begin="01:00:54.750" end="01:01:04.110" style="s2">com se eu tivesse o mar igual a meio</p>
+<p begin="01:00:59.480" end="01:01:07.099" style="s2">enrolado nele o usuário só que está</p>
+<p begin="01:01:04.110" end="01:01:11.240" style="s2">sendo * - morro</p>
+<p begin="01:01:07.099" end="01:01:14.150" style="s2">o - 953</p>
+<p begin="01:01:11.240" end="01:01:16.410" style="s2">Oi e essa parte aqui parece com esse</p>
+<p begin="01:01:14.150" end="01:01:20.970" style="s2">papo pelos Álvaro</p>
+<p begin="01:01:16.410" end="01:01:25.590" style="s2">é só que nesse caso a é igual eu vai</p>
+<p begin="01:01:20.970" end="01:01:28.740" style="s2">ficar a elevarem o só que tá sendo</p>
+<p begin="01:01:25.590" end="01:01:31.650" style="s2">multiplicado por 8 toque não é levado a</p>
+<p begin="01:01:28.740" end="01:01:35.910" style="s2">ele é a mesma coisa de um</p>
+<p begin="01:01:31.650" end="01:01:40.829" style="s2">me leva daí na mesma coisa e um cálculos</p>
+<p begin="01:01:35.910" end="01:01:43.709" style="s2">aqui esse tema aqui fica oito o DN</p>
+<p begin="01:01:40.829" end="01:01:48.630" style="s2">bom então a transformada inversa e é</p>
+<p begin="01:01:43.709" end="01:01:51.849" style="s2">você dois Delta dbr - morre meio ela</p>
+<p begin="01:01:48.630" end="01:01:55.059" style="s2">para dar o dinheiro mais puto o dia</p>
+<p begin="01:01:51.849" end="01:01:58.119" style="s2">e agora por causa mais geral possível eu</p>
+<p begin="01:01:55.059" end="01:02:03.400" style="s2">já tinha um polo de ordem s ou seja se</p>
+<p begin="01:01:58.119" end="01:02:06.880" style="s2">repete S vezes dizer igual avi ou seja o</p>
+<p begin="01:02:03.400" end="01:02:11.319" style="s2">Paulo de i.a. ele tem multiplicidade é</p>
+<p begin="01:02:06.880" end="01:02:13.390" style="s2">se você se repete S vi e todos os outros</p>
+<p begin="01:02:11.319" end="01:02:15.789" style="s2">políticos primeira aula se referem</p>
+<p begin="01:02:13.390" end="01:02:19.940" style="s2">apenas uma vez a expansão em frações</p>
+<p begin="01:02:15.789" end="01:02:23.390" style="s2">parciais é esse cá toque</p>
+<p begin="01:02:19.940" end="01:02:26.660" style="s2">o somatório Dr variados de 0 até Emily</p>
+<p begin="01:02:23.390" end="01:02:30.800" style="s2">Maria Mendonça em Natal dr-z elevado a</p>
+<p begin="01:02:26.660" end="01:02:36.080" style="s2">menos é mas o somatório esse somatório é</p>
+<p begin="01:02:30.800" end="01:02:39.680" style="s2">de cá variando até n só que o cá no</p>
+<p begin="01:02:36.080" end="01:02:42.470" style="s2">percorre esse propósito se a pé Então</p>
+<p begin="01:02:39.680" end="01:02:45.500" style="s2">você é corre de uma tem ou seja sempre</p>
+<p begin="01:02:42.470" end="01:02:49.760" style="s2">quase todos os pol mas esse somatório</p>
+<p begin="01:02:45.500" end="01:02:51.380" style="s2">não inclui o Polo e se repete eu nunca</p>
+<p begin="01:02:49.760" end="01:02:56.420" style="s2">lhe dar por essa parte aqui cara</p>
+<p begin="01:02:51.380" end="01:03:00.260" style="s2">diferencie cá ou menos de sapato a gente</p>
+<p begin="01:02:56.420" end="01:03:03.980" style="s2">já viu aí tem um somatório exclusivo o</p>
+<p begin="01:03:00.260" end="01:03:07.160" style="s2">Paulo que você aperta o Eni Maria lá</p>
+<p begin="01:03:03.980" end="01:03:13.610" style="s2">Brasil mas é esse erro que cidade do</p>
+<p begin="01:03:07.160" end="01:03:18.050" style="s2">Polo ao sol anos de daí ao palco e se</p>
+<p begin="01:03:13.610" end="01:03:19.670" style="s2">repete zera para menos 1 elevado a n d</p>
+<p begin="01:03:18.050" end="01:03:24.990" style="s2">Maria</p>
+<p begin="01:03:19.670" end="01:03:27.210" style="s2">a única expansão completo para piorar</p>
+<p begin="01:03:24.990" end="01:03:30.300" style="s2">e é até chatinho para terminar o</p>
+<p begin="01:03:27.210" end="01:03:32.880" style="s2">suficiente os confins ensacar pode ser</p>
+<p begin="01:03:30.300" end="01:03:36.270" style="s2">determinado pelo método Você viu a mesma</p>
+<p begin="01:03:32.880" end="01:03:38.850" style="s2">comprei aqui no interior o corpo docente</p>
+<p begin="01:03:36.270" end="01:03:40.890" style="s2">Dr também pode ser determinado pela</p>
+<p begin="01:03:38.850" end="01:03:43.830" style="s2">divisão logo o numerador pelo</p>
+<p begin="01:03:40.890" end="01:03:45.780" style="s2">denominador até que o resto é a grau</p>
+<p begin="01:03:43.830" end="01:03:47.790" style="s2">menor que o denominador igual a gente</p>
+<p begin="01:03:45.780" end="01:03:50.640" style="s2">fez no exemplo anterior e os</p>
+<p begin="01:03:47.790" end="01:03:53.130" style="s2">coeficientes Ai bem pode ser determinado</p>
+<p begin="01:03:50.640" end="01:03:55.500" style="s2">pelo médico do servido</p>
+<p begin="01:03:53.130" end="01:04:02.000" style="s2">e qual que é a expressão para calcular</p>
+<p begin="01:03:55.500" end="01:04:02.000" style="s2">ela é se catatau aqui são desligar</p>
+<p begin="01:04:02.470" end="01:04:10.510" style="s2">e ela vai ser igual a 1,5 S menos ele</p>
+<p begin="01:04:07.980" end="01:04:14.500" style="s2">fatorial que me que fica menos de ir</p>
+<p begin="01:04:10.510" end="01:04:20.349" style="s2">levar na F - é tudo isso multiplicado</p>
+<p begin="01:04:14.500" end="01:04:28.930" style="s2">pela derivada de S - M ordem em função</p>
+<p begin="01:04:20.349" end="01:04:32.800" style="s2">da variável w&amp;w ^ f x dizer substituir 9</p>
+<p begin="01:04:28.930" end="01:04:34.900" style="s2">tem Z por w é levada pelo vento e você</p>
+<p begin="01:04:32.800" end="01:04:39.150" style="s2">ainda tem que substituir nessa derivada</p>
+<p begin="01:04:34.900" end="01:04:41.760" style="s2">o WD elevado aí menu</p>
+<p begin="01:04:39.150" end="01:04:44.400" style="s2">e vai não se preocupe porque agora para</p>
+<p begin="01:04:41.760" end="01:04:46.440" style="s2">o dia dos casos da são formadas que a</p>
+<p begin="01:04:44.400" end="01:04:50.280" style="s2">gente resolve aqui na sua prima ou é</p>
+<p begin="01:04:46.440" end="01:04:53.670" style="s2">caso a caso dos Laurinha caso alguma</p>
+<p begin="01:04:50.280" end="01:04:55.560" style="s2">outro caso que no caso dois porque vai</p>
+<p begin="01:04:53.670" end="01:04:59.100" style="s2">escrito método que a transformada</p>
+<p begin="01:04:55.560" end="01:05:02.840" style="s2">inversa pela integral e cultura na</p>
+<p begin="01:04:59.100" end="01:05:07.820" style="s2">verdade transformar o</p>
+<p begin="01:05:02.840" end="01:05:09.890" style="s2">o falcão Neto básica dificílimo de</p>
+<p begin="01:05:07.820" end="01:05:13.880" style="s2">entregar eu vou fazer um bebezinho</p>
+<p begin="01:05:09.890" end="01:05:15.500" style="s2">a equipe formada assim nessa muito</p>
+<p begin="01:05:13.880" end="01:05:18.680" style="s2">simples</p>
+<p begin="01:05:15.500" end="01:05:22.040" style="s2">a música cabeça calcular utilizando</p>
+<p begin="01:05:18.680" end="01:05:24.120" style="s2">integral de controle Geralmente as metas</p>
+<p begin="01:05:22.040" end="01:05:26.220" style="s2">anterior</p>
+<p begin="01:05:24.120" end="01:05:29.750" style="s2">o melhor para a resposta relações</p>
+<p begin="01:05:26.220" end="01:05:31.960" style="s2">sociais ou conferência de potência</p>
+<p begin="01:05:29.750" end="01:05:34.660" style="s2">e a gente sabe</p>
+<p begin="01:05:31.960" end="01:05:37.000" style="s2">o que a transformar a z pode ser</p>
+<p begin="01:05:34.660" end="01:05:39.369" style="s2">definido como é formado por mim ir esse</p>
+<p begin="01:05:37.000" end="01:05:43.569" style="s2">higiene como que é elevado a menos que</p>
+<p begin="01:05:39.369" end="01:05:45.999" style="s2">os contatos dela de transformaram mesmo</p>
+<p begin="01:05:43.569" end="01:05:49.349" style="s2">ou seja aplicar transformada de fugir</p>
+<p begin="01:05:45.999" end="01:05:51.759" style="s2">inversa em água e sal mas não sei o quê</p>
+<p begin="01:05:49.349" end="01:05:53.259" style="s2">Porque ela é transformada de fugir com</p>
+<p begin="01:05:51.759" end="01:05:56.090" style="s2">essa aqui mas eu acho que era formado</p>
+<p begin="01:05:53.259" end="01:05:59.930" style="s2">por aí vai dizer</p>
+<p begin="01:05:56.090" end="01:06:04.100" style="s2">é igual transformada correr nessa da</p>
+<p begin="01:05:59.930" end="01:06:12.670" style="s2">transformada de fourier se cancela então</p>
+<p begin="01:06:04.100" end="01:06:12.670" style="s2">vai ficar só era levado ao mesmo tempo</p>
+<p begin="01:06:16.800" end="01:06:19.849" style="s2">[Música]</p>
+<p begin="01:06:22.930" end="01:06:38.609" style="s2">integral menos até da função e Ômega</p>
+<p begin="01:06:36.359" end="01:06:42.630" style="s2">eu vou colocar esse é relevado ele</p>
+<p begin="01:06:38.609" end="01:06:45.989" style="s2">fazendo integral e integrado menos que</p>
+<p begin="01:06:42.630" end="01:06:49.289" style="s2">até pe11x dizer é relevada a m&amp;c</p>
+<p begin="01:06:45.989" end="01:06:53.339" style="s2">comercial de menos alta umidade e o</p>
+<p begin="01:06:49.289" end="01:06:57.119" style="s2">valor para essas luzes comerciais é uma</p>
+<p begin="01:06:53.339" end="01:07:05.710" style="s2">mesma base vai ficar sobre integral de</p>
+<p begin="01:06:57.119" end="01:07:11.050" style="s2">menos e até quis dizer a tudo isso é</p>
+<p begin="01:07:05.710" end="01:07:16.600" style="s2">um toque por definição R Comercial J</p>
+<p begin="01:07:11.050" end="01:07:19.840" style="s2">Ômega é igual a sair para tomar açaí</p>
+<p begin="01:07:16.600" end="01:07:28.360" style="s2">o fazendeiro essa mudança de variável na</p>
+<p begin="01:07:19.840" end="01:07:31.840" style="s2">integral ou seja chamando ZR1 essa</p>
+<p begin="01:07:28.360" end="01:07:51.550" style="s2">mudança aqui a gente vai ficar fazer né</p>
+<p begin="01:07:31.840" end="01:07:59.790" style="s2">tem que calcular calcular e ela calcular</p>
+<p begin="01:07:51.550" end="01:08:02.700" style="s2">derivada em relação ao é um</p>
+<p begin="01:07:59.790" end="01:08:06.320" style="s2">é só que é isso condensado J ontem é</p>
+<p begin="01:08:02.700" end="01:08:11.010" style="s2">dizer então essa dele nada vai ficar jz</p>
+<p begin="01:08:06.320" end="01:08:21.569" style="s2">como o cargo calcular o elemento de</p>
+<p begin="01:08:11.010" end="01:08:26.460" style="s2">homem de Z em elevado grau de onde eu</p>
+<p begin="01:08:21.569" end="01:08:29.549" style="s2">sou obrigada a levar a mesma de sair só</p>
+<p begin="01:08:26.460" end="01:08:31.200" style="s2">que basta a gente calcular eles fazem a</p>
+<p begin="01:08:29.549" end="01:08:32.970" style="s2">substituição de variável calcular o</p>
+<p begin="01:08:31.200" end="01:08:36.060" style="s2">elemento diferencial a gente tem que</p>
+<p begin="01:08:32.970" end="01:08:40.430" style="s2">calcular também o intervalo da equação</p>
+<p begin="01:08:36.060" end="01:08:43.340" style="s2">aí é homem está sacada</p>
+<p begin="01:08:40.430" end="01:08:49.340" style="s2">e quais são os limites integral da</p>
+<p begin="01:08:43.340" end="01:08:52.160" style="s2">Integração Z = é diferenciado já tá</p>
+<p begin="01:08:49.340" end="01:08:57.359" style="s2">então a gente tem que analisar foi</p>
+<p begin="01:08:52.160" end="01:09:00.540" style="s2">limite inferior e superior que é mais um</p>
+<p begin="01:08:57.359" end="01:09:02.949" style="s2">o único período integral é o melhor</p>
+<p begin="01:09:00.540" end="01:09:07.989" style="s2">igual a menos PE</p>
+<p begin="01:09:02.949" end="01:09:11.619" style="s2">Oi e para o povo complexo porque agora</p>
+<p begin="01:09:07.989" end="01:09:19.420" style="s2">integral em vão dizer e Zé uma variável</p>
+<p begin="01:09:11.619" end="01:09:24.699" style="s2">complexa complexa tem que ver os limites</p>
+<p begin="01:09:19.420" end="01:09:27.489" style="s2">de integração igual a menos e</p>
+<p begin="01:09:24.699" end="01:09:32.620" style="s2">corresponde é o que correspondam Pan</p>
+<p begin="01:09:27.489" end="01:09:36.550" style="s2">ponto no plano complexo com magnitude r</p>
+<p begin="01:09:32.620" end="01:09:46.120" style="s2">e jamais desse número complexo z aqui e</p>
+<p begin="01:09:36.550" end="01:09:50.589" style="s2">fase fase número do ponto A é complexo</p>
+<p begin="01:09:46.120" end="01:09:53.949" style="s2">E então começa Instagram.</p>
+<p begin="01:09:50.589" end="01:09:57.250" style="s2">é o que faz meus filhos Eu tenho um</p>
+<p begin="01:09:53.949" end="01:10:00.719" style="s2">ponto no plano complexo compadre - pe a</p>
+<p begin="01:09:57.250" end="01:10:04.330" style="s2">primeira pergunta é qualquer ponto não</p>
+<p begin="01:10:00.719" end="01:10:06.130" style="s2">esse ponto tem que tá na foto da</p>
+<p begin="01:10:04.330" end="01:10:09.849" style="s2">transformada porque se tiver fora da</p>
+<p begin="01:10:06.130" end="01:10:25.960" style="s2">transformar não conversa não faz sentido</p>
+<p begin="01:10:09.849" end="01:10:29.199" style="s2">calcular integral em cima do balcão do</p>
+<p begin="01:10:25.960" end="01:10:34.750" style="s2">plano complexo dentro da Rock da</p>
+<p begin="01:10:29.199" end="01:10:37.450" style="s2">transformada que esse ponto tem um</p>
+<p begin="01:10:34.750" end="01:10:39.370" style="s2">Oi e aí vai corresponder a um negão vai</p>
+<p begin="01:10:37.450" end="01:10:44.910" style="s2">mas não sei que é o limite inferior da</p>
+<p begin="01:10:39.370" end="01:10:44.910" style="s2">Integração lá desce integrar aqui ó ó</p>
+<p begin="01:10:45.500" end="01:10:51.800" style="s2">e eu tô pegando um ponto aqui e o que eu</p>
+<p begin="01:10:47.960" end="01:10:55.590" style="s2">faço integral ela começa de menos ir e</p>
+<p begin="01:10:51.800" end="01:10:59.969" style="s2">vai até homem vai até o</p>
+<p begin="01:10:55.590" end="01:11:03.389" style="s2">e esse diretor esse ponto no plano</p>
+<p begin="01:10:59.969" end="01:11:12.070" style="s2">complexo ele várias menos pin aí você</p>
+<p begin="01:11:03.389" end="01:11:16.449" style="s2">vai subindo o a fase né não se ela menos</p>
+<p begin="01:11:12.070" end="01:11:21.520" style="s2">o e sobre 40 aí vai subindo vai fazendo</p>
+<p begin="01:11:16.449" end="01:11:25.239" style="s2">isso aqui ó esse ponto vai girando tá</p>
+<p begin="01:11:21.520" end="01:11:27.670" style="s2">girando até chegar em um pulinho o</p>
+<p begin="01:11:25.239" end="01:11:32.139" style="s2">carioca é o mesmo então você dá uma</p>
+<p begin="01:11:27.670" end="01:11:36.070" style="s2">volta todo plano complexo oferecer</p>
+<p begin="01:11:32.139" end="01:11:39.489" style="s2">cálculo integral em cima de um circo</p>
+<p begin="01:11:36.070" end="01:11:42.730" style="s2">caiu os pontos quando ele giram sai de</p>
+<p begin="01:11:39.489" end="01:11:46.510" style="s2">menos pe a tep ele não fazer um círculo</p>
+<p begin="01:11:42.730" end="01:11:49.610" style="s2">fechado então essa integral é o integral</p>
+<p begin="01:11:46.510" end="01:11:53.480" style="s2">de contorno</p>
+<p begin="01:11:49.610" end="01:11:55.989" style="s2">e a transformada inversa quando você faz</p>
+<p begin="01:11:53.480" end="01:11:59.360" style="s2">a substituição de variável na integral</p>
+<p begin="01:11:55.989" end="01:12:02.360" style="s2">será denuncia CEF quando você passa para</p>
+<p begin="01:11:59.360" end="01:12:07.130" style="s2">o plano complexo ela viram integral viu</p>
+<p begin="01:12:02.360" end="01:12:10.670" style="s2">o controle com sentido ao qual o sentido</p>
+<p begin="01:12:07.130" end="01:12:13.810" style="s2">que saber tô aqui virou Ele saiu daqui ó</p>
+<p begin="01:12:10.670" end="01:12:16.520" style="s2">da ponta para a esquerda e foi girando</p>
+<p begin="01:12:13.810" end="01:12:21.619" style="s2">até voltar para minha posição ele foi</p>
+<p begin="01:12:16.520" end="01:12:25.010" style="s2">girada no sentido então Contorno no</p>
+<p begin="01:12:21.619" end="01:12:26.780" style="s2">sentido horário só que esse Contorno em</p>
+<p begin="01:12:25.010" end="01:12:28.820" style="s2">sentido anti-horário tem que estar na</p>
+<p begin="01:12:26.780" end="01:12:33.040" style="s2">Rock da transformada Porque eu só posso</p>
+<p begin="01:12:28.820" end="01:12:37.750" style="s2">calcular integral em cima de uma região</p>
+<p begin="01:12:33.040" end="01:12:43.420" style="s2">igual entregando converte pensamento de</p>
+<p begin="01:12:37.750" end="01:12:46.250" style="s2">uma pessoa qualquer qualquer dentes</p>
+<p begin="01:12:43.420" end="01:12:50.480" style="s2">desde que seja no sentido agora</p>
+<p begin="01:12:46.250" end="01:12:53.600" style="s2">e assim sincero faz essas salariado vai</p>
+<p begin="01:12:50.480" end="01:12:55.850" style="s2">ficar um show dois a integral em cima do</p>
+<p begin="01:12:53.600" end="01:13:06.040" style="s2">Povo CE</p>
+<p begin="01:12:55.850" end="01:13:06.040" style="s2">é fechado xz Ai aquele essa parte aqui ó</p>
+<p begin="01:13:06.320" end="01:13:12.530" style="s2">o r Machados volta vai ser substituído</p>
+<p begin="01:13:09.949" end="01:13:14.920" style="s2">pois é agora vai ser substituída por</p>
+<p begin="01:13:12.530" end="01:13:14.920" style="s2">isso aqui</p>
+<p begin="01:13:16.619" end="01:13:21.479" style="s2">e para seu substituição vai ficar muito</p>
+<p begin="01:13:19.169" end="01:13:25.379" style="s2">sobre esse é grave com tudo fechado no</p>
+<p begin="01:13:21.479" end="01:13:29.189" style="s2">sentido horário x dizer e multiplica Zé</p>
+<p begin="01:13:25.379" end="01:13:32.010" style="s2">para multiplicar objeto de</p>
+<p begin="01:13:29.189" end="01:13:36.840" style="s2">relacionamento desse outra agrupando</p>
+<p begin="01:13:32.010" end="01:13:39.659" style="s2">mais ser igual a sobre 2pj integral de</p>
+<p begin="01:13:36.840" end="01:13:44.699" style="s2">contornos consumo É no sentido</p>
+<p begin="01:13:39.659" end="01:13:46.940" style="s2">anti-horário e na xbz multiplica gera</p>
+<p begin="01:13:44.699" end="01:13:50.510" style="s2">menos uns 15</p>
+<p begin="01:13:46.940" end="01:13:55.310" style="s2">é matematicamente a transformada inversa</p>
+<p begin="01:13:50.510" end="01:13:57.030" style="s2">de ela é calculado dessa forma a questão</p>
+<p begin="01:13:55.310" end="01:14:01.170" style="s2">é só uma</p>
+<p begin="01:13:57.030" end="01:14:09.059" style="s2">o diabo calcula Centenário conto não é</p>
+<p begin="01:14:01.170" end="01:14:13.020" style="s2">sim estou a falar gosto chupando que fez</p>
+<p begin="01:14:09.059" end="01:14:16.139" style="s2">dizer é uma função racional pelas</p>
+<p begin="01:14:13.020" end="01:14:20.070" style="s2">propriedades burro quando você tem esse</p>
+<p begin="01:14:16.139" end="01:14:23.579" style="s2">caso essa integral de contorno esse</p>
+<p begin="01:14:20.070" end="01:14:28.170" style="s2">resultado aqui ele é definir como</p>
+<p begin="01:14:23.579" end="01:14:29.890" style="s2">somatório dos resíduos de X dizer que 10</p>
+<p begin="01:14:28.170" end="01:14:33.340" style="s2">elevado a n - 1</p>
+<p begin="01:14:29.890" end="01:14:37.680" style="s2">e o sol que estão dentro do Contorno</p>
+<p begin="01:14:33.340" end="01:14:40.830" style="s2">você tá calculadora falar assim ó</p>
+<p begin="01:14:37.680" end="01:14:43.010" style="s2">É eu sei que é meio complexo mas vai</p>
+<p begin="01:14:40.830" end="01:14:46.610" style="s2">ficar claro com exemplo</p>
+<p begin="01:14:43.010" end="01:14:49.490" style="s2">Oi como é que você cálculo resido o</p>
+<p begin="01:14:46.610" end="01:14:52.619" style="s2">exilo você calcula igual você calcular</p>
+<p begin="01:14:49.490" end="01:14:57.030" style="s2">ia lá sociais</p>
+<p begin="01:14:52.619" end="01:15:01.079" style="s2">e como é que ficou algum resíduo do Polo</p>
+<p begin="01:14:57.030" end="01:15:03.300" style="s2">Zebu a zero como hábitos ABS como é que</p>
+<p begin="01:15:01.079" end="01:15:05.219" style="s2">você calcula esses resíduos</p>
+<p begin="01:15:03.300" end="01:15:06.780" style="s2">multiplicidade estas é que esse pau se</p>
+<p begin="01:15:05.219" end="01:15:11.220" style="s2">repete SM</p>
+<p begin="01:15:06.780" end="01:15:14.430" style="s2">o Brasil x dizer Zé levar à venda em</p>
+<p begin="01:15:11.220" end="01:15:15.619" style="s2">dizer igual a zero é decidido por essa</p>
+<p begin="01:15:14.430" end="01:15:19.600" style="s2">situação aqui</p>
+<p begin="01:15:15.619" end="01:15:31.380" style="s2">fala sobre S menu fatorial</p>
+<p begin="01:15:19.600" end="01:15:35.250" style="s2">a derivada de ordem sx60 - ^ S</p>
+<p begin="01:15:31.380" end="01:15:38.350" style="s2">substituir nessa derivadas e puser que</p>
+<p begin="01:15:35.250" end="01:15:40.330" style="s2">eu já estou logo adianta aqui a gente</p>
+<p begin="01:15:38.350" end="01:15:43.570" style="s2">calcular transformada inversa pela</p>
+<p begin="01:15:40.330" end="01:15:48.370" style="s2">integral de conto não vai ser algo usual</p>
+<p begin="01:15:43.570" end="01:15:50.470" style="s2">é muito difícil não vamos simplificar um</p>
+<p begin="01:15:48.370" end="01:15:53.170" style="s2">pouco mais e vamos supor que você tem um</p>
+<p begin="01:15:50.470" end="01:15:55.900" style="s2">pouco do que sábio Ou seja eu posso é</p>
+<p begin="01:15:53.170" end="01:16:00.610" style="s2">apenas uma vez todos os Fundos são</p>
+<p begin="01:15:55.900" end="01:16:02.350" style="s2">diferentes Então nesse caso o perdido</p>
+<p begin="01:16:00.610" end="01:16:07.470" style="s2">ele pode ser simplificado por essa</p>
+<p begin="01:16:02.350" end="01:16:10.600" style="s2">expressão aqui ó resíduo ex16k sem levar</p>
+<p begin="01:16:07.470" end="01:16:12.010" style="s2">emprego às vezes é esse resido é</p>
+<p begin="01:16:10.600" end="01:16:15.790" style="s2">calculado principalmente você pegando</p>
+<p begin="01:16:12.010" end="01:16:19.610" style="s2">essa transformada z z z z z levar a</p>
+<p begin="01:16:15.790" end="01:16:22.880" style="s2">menos 1 x 0 - exército fizeram</p>
+<p begin="01:16:19.610" end="01:16:26.719" style="s2">e o Polo e substituindo Nossa</p>
+<p begin="01:16:22.880" end="01:16:29.150" style="s2">multiplicação z09 geralmente a gente só</p>
+<p begin="01:16:26.719" end="01:16:35.150" style="s2">trata nesse caso aqui ó um polo de</p>
+<p begin="01:16:29.150" end="01:16:38.840" style="s2">multiplicidade o classificava Como já é</p>
+<p begin="01:16:35.150" end="01:16:42.040" style="s2">complexo gente complexidade ainda aí</p>
+<p begin="01:16:38.840" end="01:16:45.850" style="s2">você aí ó</p>
+<p begin="01:16:42.040" end="01:16:51.190" style="s2">eu vou fazer um exemplo é uma coisa aqui</p>
+<p begin="01:16:45.850" end="01:16:53.350" style="s2">geralmente não é cobrar integral mas que</p>
+<p begin="01:16:51.190" end="01:16:56.920" style="s2">eu vou fazer se exemplo objetivo não é</p>
+<p begin="01:16:53.350" end="01:17:02.200" style="s2">pra vocês entenderem vai fazer para</p>
+<p begin="01:16:56.920" end="01:17:03.850" style="s2">vocês fazerem não é isso é para vocês</p>
+<p begin="01:17:02.200" end="01:17:07.060" style="s2">entenderem Porque que a gente não</p>
+<p begin="01:17:03.850" end="01:17:09.130" style="s2">utiliza esse né então vamos tomar as</p>
+<p begin="01:17:07.060" end="01:17:11.670" style="s2">vezes essa ridiculamente simples de</p>
+<p begin="01:17:09.130" end="01:17:15.640" style="s2">calcular a gente o expressão calcular ia</p>
+<p begin="01:17:11.670" end="01:17:19.630" style="s2">x dizer é um tipo humanos e meio de</p>
+<p begin="01:17:15.640" end="01:17:25.020" style="s2">levar mesmo com RDC modo de ver maior</p>
+<p begin="01:17:19.630" end="01:17:27.810" style="s2">primeiro Fábio a</p>
+<p begin="01:17:25.020" end="01:17:29.530" style="s2">Oi gente eu falo então foi com essa</p>
+<p begin="01:17:27.810" end="01:17:35.409" style="s2">lateral direito</p>
+<p begin="01:17:29.530" end="01:17:37.150" style="s2">e pelas tabelas e tu é ser um meio ^ m</p>
+<p begin="01:17:35.409" end="01:17:42.699" style="s2">hogg n</p>
+<p begin="01:17:37.150" end="01:17:44.590" style="s2">você já sabe a resposta gente já tem mas</p>
+<p begin="01:17:42.699" end="01:17:46.719" style="s2">eu quero propositalmente calcular</p>
+<p begin="01:17:44.590" end="01:17:48.900" style="s2">intervalo com tudo só para mostrar como</p>
+<p begin="01:17:46.719" end="01:17:50.400" style="s2">é o trabalho é do ano</p>
+<p begin="01:17:48.900" end="01:17:52.650" style="s2">eu sou a primeira coisa que você</p>
+<p begin="01:17:50.400" end="01:17:55.590" style="s2">calcular essa função pelo médico</p>
+<p begin="01:17:52.650" end="01:18:05.219" style="s2">treinado um pouco FZ e que fazer a barba</p>
+<p begin="01:17:55.590" end="01:18:07.560" style="s2">mesmo menos meio e multiplica ^ - ^ ele</p>
+<p begin="01:18:05.219" end="01:18:16.250" style="s2">menos um é a mesma coisa dizer levar lá</p>
+<p begin="01:18:07.560" end="01:18:21.550" style="s2">eu usei essa multiplicação Z menos meio</p>
+<p begin="01:18:16.250" end="01:18:25.000" style="s2">Beleza já tem xz1</p>
+<p begin="01:18:21.550" end="01:18:27.310" style="s2">e veja que o seguinte quando n ele é</p>
+<p begin="01:18:25.000" end="01:18:32.140" style="s2">maior do que zero</p>
+<p begin="01:18:27.310" end="01:18:35.380" style="s2">e aqui vai fazer ^ sei lá usei lavá-la</p>
+<p begin="01:18:32.140" end="01:18:38.350" style="s2">dois elevado a 3 você ia levar a quatro</p>
+<p begin="01:18:35.380" end="01:18:41.940" style="s2">por exemplo se eu substituir aqui é n</p>
+<p begin="01:18:38.350" end="01:18:47.580" style="s2">por cinco vai ficar como situação</p>
+<p begin="01:18:41.940" end="01:18:55.699" style="s2">e vai ficar levar ação usei mesmo milho</p>
+<p begin="01:18:47.580" end="01:18:55.699" style="s2">só substituir L Pool 10 caseiro 10 usei</p>
+<p begin="01:18:55.820" end="01:19:02.100" style="s2">independentemente de qual é o valor de n</p>
+<p begin="01:18:58.340" end="01:19:04.420" style="s2">e é negócio igual a 10 segual no segundo</p>
+<p begin="01:19:02.100" end="01:19:10.540" style="s2">verso é igual um milhão</p>
+<p begin="01:19:04.420" end="01:19:11.780" style="s2">e essa função xz Zé da burra ela só tem</p>
+<p begin="01:19:10.540" end="01:19:16.480" style="s2">Polo</p>
+<p begin="01:19:11.780" end="01:19:21.440" style="s2">em São Paulo localizado no z = meio</p>
+<p begin="01:19:16.480" end="01:19:28.210" style="s2">igual a zero a gente sabe que definição</p>
+<p begin="01:19:21.440" end="01:19:37.699" style="s2">transformada inversa dos seres vivos</p>
+<p begin="01:19:28.210" end="01:19:40.550" style="s2">dizem elevar lá dentro integral</p>
+<p begin="01:19:37.699" end="01:19:45.619" style="s2">e já que a gente só tem um polo então a</p>
+<p begin="01:19:40.550" end="01:19:51.110" style="s2">gente só que calcular é o resido e xz500</p>
+<p begin="01:19:45.619" end="01:19:53.530" style="s2">agora mesmo quando vê foi lá meio então</p>
+<p begin="01:19:51.110" end="01:19:59.400" style="s2">isso aqui vai ser simplesmente o resido</p>
+<p begin="01:19:53.530" end="01:20:02.820" style="s2">dxz levar aí no menu Z = meio</p>
+<p begin="01:19:59.400" end="01:20:05.989" style="s2">é só que 6 um pouco publicidade um Então</p>
+<p begin="01:20:02.820" end="01:20:11.370" style="s2">esse resíduo simplesmente vai pegar</p>
+<p begin="01:20:05.989" end="01:20:14.190" style="s2">xz-10 elevado a menos 1 x 0 - o pão que</p>
+<p begin="01:20:11.370" end="01:20:18.690" style="s2">é meio e conseguiu substituir onde tem</p>
+<p begin="01:20:14.190" end="01:20:21.449" style="s2">ver por mês Isso aqui vai cortar com</p>
+<p begin="01:20:18.690" end="01:20:23.870" style="s2">isso aqui vai ficar ver é levar aí só</p>
+<p begin="01:20:21.449" end="01:20:28.380" style="s2">tenho que dizer para o meio ela ficar</p>
+<p begin="01:20:23.870" end="01:20:34.640" style="s2">meio levarem então já sei que para ele</p>
+<p begin="01:20:28.380" end="01:20:34.640" style="s2">maior igual a zero enviar é meio e levar</p>
+<p begin="01:20:35.390" end="01:20:41.440" style="s2">você pode não é tão difícil</p>
+<p begin="01:20:38.500" end="01:20:44.989" style="s2">É verdade não é tão difícil o programa</p>
+<p begin="01:20:41.440" end="01:20:47.949" style="s2">surge você tem que analisar</p>
+<p begin="01:20:44.989" end="01:20:47.949" style="s2">E aí</p>
+<p begin="01:20:48.610" end="01:20:55.170" style="s2">o banco jeito outra vem com duas é menor</p>
+<p begin="01:20:52.600" end="01:21:01.600" style="s2">que zero não ficou igual a menos dois</p>
+<p begin="01:20:55.170" end="01:21:06.100" style="s2">vai ficar com a caseira 2v - meio ou</p>
+<p begin="01:21:01.600" end="01:21:09.580" style="s2">seja ficar sobre se elevado a 2 menos</p>
+<p begin="01:21:06.100" end="01:21:13.480" style="s2">meio que acontece nesse carro que esse</p>
+<p begin="01:21:09.580" end="01:21:16.360" style="s2">caso você tem pouco ainda em mim mas</p>
+<p begin="01:21:13.480" end="01:21:19.060" style="s2">agora você tem dois polos</p>
+<p begin="01:21:16.360" end="01:21:22.660" style="s2">a z = 0</p>
+<p begin="01:21:19.060" end="01:21:25.900" style="s2">E se fosse n = 3 você teria quantos</p>
+<p begin="01:21:22.660" end="01:21:33.400" style="s2">polos 1,0 aqui ficaram elevada três você</p>
+<p begin="01:21:25.900" end="01:21:35.830" style="s2">teria três polos Z = 0 = 4 = -4 e quatro</p>
+<p begin="01:21:33.400" end="01:21:39.250" style="s2">polos igual a zero é igual a menos assim</p>
+<p begin="01:21:35.830" end="01:21:42.190" style="s2">cinco polos não perigosa Então você tem</p>
+<p begin="01:21:39.250" end="01:21:46.200" style="s2">módulo i n colo igual a zero você vai</p>
+<p begin="01:21:42.190" end="01:21:49.180" style="s2">calcular todos os resíduos não tem como</p>
+<p begin="01:21:46.200" end="01:21:51.850" style="s2">coisa assim que vai ficar embora você</p>
+<p begin="01:21:49.180" end="01:21:53.560" style="s2">possa entender um pouco como cidade mas</p>
+<p begin="01:21:51.850" end="01:21:55.380" style="s2">mesmo assim é muito complexo você</p>
+<p begin="01:21:53.560" end="01:22:00.670" style="s2">calcular</p>
+<p begin="01:21:55.380" end="01:22:03.250" style="s2">é só que a gente pode fazer uma</p>
+<p begin="01:22:00.670" end="01:22:05.770" style="s2">eu dei a gente já tem suspeito para</p>
+<p begin="01:22:03.250" end="01:22:08.620" style="s2">falar com essa lateral direita</p>
+<p begin="01:22:05.770" end="01:22:13.900" style="s2">o suspense aqui ó tá com essa causal</p>
+<p begin="01:22:08.620" end="01:22:15.660" style="s2">também como calcular só para ele igual</p>
+<p begin="01:22:13.900" end="01:22:19.740" style="s2">mesmo</p>
+<p begin="01:22:15.660" end="01:22:22.080" style="s2">é igual a menos um vai ser o que isso</p>
+<p begin="01:22:19.740" end="01:22:24.330" style="s2">aqui era igual numa situação atual dos</p>
+<p begin="01:22:22.080" end="01:22:28.110" style="s2">seres vivos e que dizem elevar a em</p>
+<p begin="01:22:24.330" end="01:22:30.390" style="s2">burro deve ser só que ele é igual a</p>
+<p begin="01:22:28.110" end="01:22:35.850" style="s2">menos um então isso vai ser igual</p>
+<p begin="01:22:30.390" end="01:22:39.600" style="s2">resíduos você sido um x 10 elevado a n -</p>
+<p begin="01:22:35.850" end="01:22:42.270" style="s2">do ele não é novo Tem nada nunca vai</p>
+<p begin="01:22:39.600" end="01:22:48.270" style="s2">ficar de levar mesmo eu não vou levar na</p>
+<p begin="01:22:42.270" end="01:22:52.060" style="s2">nos dois polos não sei quando em foi =</p>
+<p begin="01:22:48.270" end="01:22:57.269" style="s2">-1 uma xz</p>
+<p begin="01:22:52.060" end="01:23:03.199" style="s2">É sim elevado a menos 2 o carro</p>
+<p begin="01:22:57.269" end="01:23:12.709" style="s2">e vai ficar justamente Z elevada mesmo</p>
+<p begin="01:23:03.199" end="01:23:17.129" style="s2">te ver pelo menos não vai ficar sobre Z</p>
+<p begin="01:23:12.709" end="01:23:21.959" style="s2">- médico então eu tenho pobres é igual a</p>
+<p begin="01:23:17.129" end="01:23:27.629" style="s2">zero quase igual a meio então bate-papo</p>
+<p begin="01:23:21.959" end="01:23:33.119" style="s2">ao vivo quinzenais de Paula - 2 = meio</p>
+<p begin="01:23:27.629" end="01:23:36.119" style="s2">mas os resíduos x Z2 = 0 já tem o que é</p>
+<p begin="01:23:33.119" end="01:23:39.590" style="s2">x vezes aquela menos dois aqui vamos</p>
+<p begin="01:23:36.119" end="01:23:44.010" style="s2">calcular o Sesi esse primeiro resino</p>
+<p begin="01:23:39.590" end="01:23:47.790" style="s2">é o que dizem elevar - 2 = meio</p>
+<p begin="01:23:44.010" end="01:23:53.370" style="s2">E é só pegar essa função X elevado e eu</p>
+<p begin="01:23:47.790" end="01:23:55.170" style="s2">não sei nos bem outra Picape usei né no</p>
+<p begin="01:23:53.370" end="01:23:56.820" style="s2">ponto eu quero calcular o vídeo e</p>
+<p begin="01:23:55.170" end="01:23:58.760" style="s2">substituir dentro pouco eu quero</p>
+<p begin="01:23:56.820" end="01:24:02.179" style="s2">calcular IV</p>
+<p begin="01:23:58.760" end="01:24:05.420" style="s2">e com que vai ficar o que sobre dizer</p>
+<p begin="01:24:02.179" end="01:24:11.199" style="s2">isso é meio para ficar igual à 21</p>
+<p begin="01:24:05.420" end="01:24:16.040" style="s2">a convergir de x é zero bala - 2 = 0</p>
+<p begin="01:24:11.199" end="01:24:19.190" style="s2">você vai pegar essa função aqui ó o que</p>
+<p begin="01:24:16.040" end="01:24:21.210" style="s2">ficar usei menos o Paulo mas o colega a</p>
+<p begin="01:24:19.190" end="01:24:27.630" style="s2">0 vai ficar sozinho</p>
+<p begin="01:24:21.210" end="01:24:33.010" style="s2">E aí burra Ok Cacau que puser uma dos</p>
+<p begin="01:24:27.630" end="01:24:36.610" style="s2">meio doido</p>
+<p begin="01:24:33.010" end="01:24:45.880" style="s2">e vamos somar os dois resíduos Vai dar</p>
+<p begin="01:24:36.610" end="01:24:49.360" style="s2">quanto a dois textos beleza - 2 = x - 1</p>
+<p begin="01:24:45.880" end="01:24:53.820" style="s2">= 0 a questão é que se você fizer isso</p>
+<p begin="01:24:49.360" end="01:25:00.480" style="s2">para outros a luz de ele negativo 15 - 2</p>
+<p begin="01:24:53.820" end="01:25:01.920" style="s2">o X2 - 3x - 4x menos 5 6 assim por</p>
+<p begin="01:25:00.480" end="01:25:06.630" style="s2">diante e</p>
+<p begin="01:25:01.920" end="01:25:09.450" style="s2">e os resíduos do Polo meio eles vão lá</p>
+<p begin="01:25:06.630" end="01:25:12.690" style="s2">com os resíduos do zero</p>
+<p begin="01:25:09.450" end="01:25:18.810" style="s2">é tão compreensão aos resíduos vai dar</p>
+<p begin="01:25:12.690" end="01:25:22.770" style="s2">tudo certo então xvn a gozar dessa forma</p>
+<p begin="01:25:18.810" end="01:25:29.040" style="s2">a gente tem o que é sobre dois para ele</p>
+<p begin="01:25:22.770" end="01:25:30.930" style="s2">maior igual a zero ou seja e é meio no</p>
+<p begin="01:25:29.040" end="01:25:34.410" style="s2">dia que a mesma coisa que a gente</p>
+<p begin="01:25:30.930" end="01:25:37.860" style="s2">poderia ter obtido se analisasse tabela</p>
+<p begin="01:25:34.410" end="01:25:41.970" style="s2">só quer que utilizam a matemática ele</p>
+<p begin="01:25:37.860" end="01:25:45.300" style="s2">transformada E aí Começa a complicar</p>
+<p begin="01:25:41.970" end="01:25:51.260" style="s2">Quando você pensa você só mais vai se eu</p>
+<p begin="01:25:45.300" end="01:25:55.410" style="s2">colocar mais complexa assim o contorno</p>
+<p begin="01:25:51.260" end="01:26:02.730" style="s2">complexo ainda de calcular é claro que é</p>
+<p begin="01:25:55.410" end="01:26:05.010" style="s2">mas não é pra você que faz sentido você</p>
+<p begin="01:26:02.730" end="01:26:06.460" style="s2">calcular transformada inversa pela</p>
+<p begin="01:26:05.010" end="01:26:11.130" style="s2">integral do conto</p>
+<p begin="01:26:06.460" end="01:26:13.780" style="s2">se você analisar bem a expressão</p>
+<p begin="01:26:11.130" end="01:26:15.489" style="s2">analisar bem a expressão da transformada</p>
+<p begin="01:26:13.780" end="01:26:18.310" style="s2">ingresso aquele teclado com Como que é o</p>
+<p begin="01:26:15.489" end="01:26:20.080" style="s2">somatório dos resíduos você consegue</p>
+<p begin="01:26:18.310" end="01:26:23.260" style="s2">calcular a transformada inversa para um</p>
+<p begin="01:26:20.080" end="01:26:24.910" style="s2">valor de n específico então às vezes</p>
+<p begin="01:26:23.260" end="01:26:26.530" style="s2">quando você calcular a profissão você</p>
+<p begin="01:26:24.910" end="01:26:30.600" style="s2">não quer saber a transformada inversa</p>
+<p begin="01:26:26.530" end="01:26:35.140" style="s2">você só quer saber qual é a 15ª morte do</p>
+<p begin="01:26:30.600" end="01:26:38.469" style="s2">final da transformada inversa aí pode</p>
+<p begin="01:26:35.140" end="01:26:40.989" style="s2">ser e você calcula sei lá no chamado</p>
+<p begin="01:26:38.469" end="01:26:46.180" style="s2">impressa pela integral do corpo passa</p>
+<p begin="01:26:40.989" end="01:26:50.140" style="s2">seu filho não nessa pode ser por aqui na</p>
+<p begin="01:26:46.180" end="01:26:53.670" style="s2">próxima aula nós vamos algumas Essas são</p>
+<p begin="01:26:50.140" end="01:26:58.110" style="s2">as páginas do livro que corresponde e</p>
+<p begin="01:26:53.670" end="01:26:58.110" style="s2">esse Salmos exercício Quais são os</p>
+</div>
+</body>
+</tt>
